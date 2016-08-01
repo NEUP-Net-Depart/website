@@ -10,3 +10,8 @@
     return "";
     }
     add_filter("excerpt_more", "new_excerpt_more");
+    //自定义截断函数
+    function dm_strimwidth($str ,$start , $width ,$trimmarker ){
+        $output = preg_replace('/^(?:[\x00-\x7F]|[\xC0-\xFF][\x80-\xBF]+){0,'.$start.'}((?:[\x00-\x7F]|[\xC0-\xFF][\x80-\xBF]+){0,'.$width.'}).*/s','\1',$str);
+        return $output.$trimmarker;
+    }

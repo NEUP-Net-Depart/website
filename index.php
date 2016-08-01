@@ -110,7 +110,7 @@
     $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
     while($query->have_posts()): $query->the_post();
   ?>
-  <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php the_title(); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+  <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
   <?php endwhile; wp_reset_query(); ?>
 </ul>
 <!-- 选项卡1文字结束 -->
@@ -151,7 +151,7 @@
     $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
     while($query->have_posts()): $query->the_post();
   ?>
-  <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php the_title(); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+  <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
   <?php endwhile; wp_reset_query(); ?>
 </ul>
 <!-- 选项卡2文字结束 -->
@@ -206,7 +206,7 @@
       while($query->have_posts()): $query->the_post();
     ?>
   <tr>
-    <td width="332" height="24"><a href="<?php the_permalink();?>" class="blue20"><?php the_title(); ?></a></td>
+    <td width="332" height="24"><a href="<?php the_permalink();?>" class="blue20"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a></td>
   </tr>
   <tr>
     <td style="padding:5px;"><font class="grey12-more"><?php echo get_the_excerpt();?><a href="<?php the_permalink() ?>" class="grey10bg">更多>></a></td>
@@ -231,7 +231,7 @@
         $query = new WP_Query("posts_per_page=4&category_name=".$cat_name);
         while($query->have_posts()): $query->the_post();
       ?>
-      <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php the_title(); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>  
+      <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>  
       <?php endwhile; wp_reset_query(); ?>
     </ul>
 		<!-- 头题文字循环结束 -->
@@ -253,7 +253,7 @@
               $query = new WP_Query("posts_per_page=6&category_name=".$cat_name);
               while($query->have_posts()): $query->the_post();
             ?>
-              <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php the_title(); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>  
+              <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>  
             <?php endwhile; wp_reset_query(); ?>
             </ul>
           </tr>
@@ -278,7 +278,7 @@
               $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
               while($query->have_posts()): $query->the_post();
             ?>
-          <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php the_title(); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li> 
+          <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li> 
 	         <?php endwhile; wp_reset_query(); ?>
 		  </ul>		  
 		  </td>
@@ -289,7 +289,7 @@
               $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
               while($query->have_posts()): $query->the_post();
             ?>
-              <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php the_title(); ?></a><font class="grey10" style="padding-right:9px; "><?php the_time("m-d"); ?></font></li>
+              <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a><font class="grey10" style="padding-right:9px; "><?php the_time("m-d"); ?></font></li>
               <?php endwhile; wp_reset_query(); ?>
             </ul></td>
         </tr>
@@ -312,7 +312,7 @@
                   $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
                   while($query->have_posts()): $query->the_post();
                 ?>
-                <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php the_title(); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li> 
+                <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li> 
                 <?php endwhile; wp_reset_query(); ?>
             </ul></td>
           <td width="290" style="padding-left:10px; ">
@@ -323,7 +323,7 @@
                 $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
                 while($query->have_posts()): $query->the_post();
               ?>
-                <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php the_title(); ?></a><font class="grey10" style="padding-right:9px; "><?php the_time("m-d"); ?></font></li>
+                <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a><font class="grey10" style="padding-right:9px; "><?php the_time("m-d"); ?></font></li>
               <?php endwhile; wp_reset_query(); ?>
           </ul></td>
         </tr>
@@ -368,7 +368,7 @@
                 $query = new WP_Query("posts_per_page=6&category_name=".$cat_name);
                 while($query->have_posts()): $query->the_post();
               ?>
-		        <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php the_title(); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+		        <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
           
           <?php endwhile; wp_reset_query(); ?>
 		  </ul>
