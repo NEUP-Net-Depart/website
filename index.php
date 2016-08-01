@@ -392,7 +392,7 @@
 	<div id="tabContenta1" name="divNumbera" class="tabdiv">
 <table width="317" height="73" border="0" cellpadding="0" cellspacing="0" background="<?php bloginfo('template_url'); ?>/images/dotlinebg2.jpg">
   <tr>
-    <td><table width="54" height="50" border="0" align="center" cellpadding="0" cellspacing="0">
+    <td width="70"><table width="54" height="50" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
         <td background="<?php bloginfo('template_url'); ?>/images/calbg.jpg" align="center"><font class="white12"><?php echo $monthes[substr($time1, 5, 2)] ?></font><br />
           <font class="black14"><strong><?php if(substr($time1, 8, 2) < 10) echo substr($time1, 9, 1); else echo substr($time1, 8, 2); ?></strong></font></td>
@@ -406,7 +406,7 @@
 <table width="317" height="73" border="0" cellpadding="0" cellspacing="0" background="<?php bloginfo('template_url'); ?>/images/dotlinebg2.jpg">
 
   <tr>
-    <td><table width="54" height="50" border="0" align="center" cellpadding="0" cellspacing="0">
+    <td width="70"><table width="54" height="50" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
         <td background="<?php bloginfo('template_url'); ?>/images/calbg.jpg" align="center"><font class="white12"><?php echo $monthes[substr($time2, 5, 2)] ?></font><br />
               <font class="black14"><strong><?php if(substr($time2, 8, 2) < 10) echo substr($time2, 9, 1); else echo substr($time2, 8, 2); ?></strong></font></td>
@@ -419,7 +419,7 @@
 </table>
 <table width="317" height="73" border="0" cellpadding="0" cellspacing="0" background="<?php bloginfo('template_url'); ?>/images/dotlinebg2.jpg">
   <tr>
-    <td><table width="54" height="50" border="0" align="center" cellpadding="0" cellspacing="0">
+    <td width="70"><table width="54" height="50" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
         <td background="<?php bloginfo('template_url'); ?>/images/calbg.jpg" align="center"><font class="white12"><?php echo $monthes[substr($time3, 5, 2)] ?></font><br />
               <font class="black14"><strong><?php if(substr($time3, 8, 2) < 10) echo substr($time3, 9, 1); else echo substr($time3, 8, 2); ?></strong></font></td>
