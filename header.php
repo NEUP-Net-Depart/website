@@ -60,7 +60,15 @@
     <li><a href="http://www.lanrentuku.com/" target="_blank">办事指南</a></li>
     </ul>
     </li>
-     <li class="jquery_out" style="padding-left:25px;"><img src="<?php bloginfo('template_url'); ?>/images/temp/searchbg.jpg" / width="260"></li>
+     <li class="jquery_out" style="padding-left:25px;">
+         <form method="get" id="searchform" action="#">
+             <fieldset class="search">
+
+                 <input type="text" class="box" name="s" id="s"  placeholder="" >
+                 <button class="btn" title="SEARCH" type="submit"></button>
+             </fieldset>
+         </form>
+     </li>
     <div class="clear"></div>
 </ul>
 </div>
