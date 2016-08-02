@@ -280,3 +280,16 @@ fieldset.search {
 	background: url(../images/temp/searchbtn2.jpg) no-repeat ;
 	background-size:70px 22px;
 }
+
+.sub-title{
+
+	color:#D4000D;
+	margin:auto;
+	font-size:17px;
+	font-weight:bolder;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
