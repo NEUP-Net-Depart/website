@@ -185,7 +185,7 @@
   </tr>
 </table>
 	<div id="tabContent1" name="divNumber" class="tabdiv">
-新浪调用	</div>
+        <iframe width="100%" height="160" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=160&fansRow=2&ptype=1&speed=0&skin=5&isTitle=0&noborder=1&isWeibo=1&isFans=0&uid=5293007529&verifier=1f9f3b9c&dpc=1"></iframe></div>
 	<div id="tabContent2" name="divNumber" class="tabdiv hiddendiv">
 腾讯调用 尺寸最大宽为300PX;	</div>
 </div></td>
