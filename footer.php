@@ -18,7 +18,7 @@ NEUtuanwei123</a></td>
       </table></td>
     <td width="644"><table width="604" border="0" cellspacing="0" cellpadding="0">
         <tr>
-          <td width="70"><img src="<?php bloginfo('template_url'); ?>/images/icons/logo2.png" width="154" height="54" /></td>
+          <td width="70"><img src="<?php bloginfo('template_url'); ?>/images/icons/logo2.png" width="54" height="54" /></td>
           <td width="493"><font class="white12">版权所有：共青团东北大学委员会   | 地址：辽宁省沈阳市和平区文化路三巷11号 <br />
           设计制作：团委 运维：网络中心&nbsp;&nbsp;|  辽ICP备05001360号<br /> 投稿邮箱：neuyouthnews@163.com</font></td>
         </tr>
