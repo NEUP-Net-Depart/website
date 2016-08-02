@@ -46,7 +46,7 @@ a:hover { text-decoration: underline; color: #a50001; }
 
 .slideshow SPAN.title { text-indent: 0px; }
 .block { margin: 0;position: relative; }
-#frameHlicAe { margin: 0px !important; border: 0px z-index:-1;}
+#frameHlicAe { margin: 0px !important; border: 0px;z-index:-1;}
 .comiis_wrap960, .comiis_wrapad { margin: 0 auto; width: 300px;}
 .comiis_wrapad { margin-top: 0px;}
 .comiis_wrapad { overflow: hidden; }
@@ -65,7 +65,7 @@ a:hover { text-decoration: underline; color: #a50001; }
 .tabqh .menu li a{color:#000000;font:16px/normal 微软雅黑; font-weight:bold;text-decoration:none;display:block; }
 .tabqh .menu li a.tabactive{color:#fff;font:16px/normal 微软雅黑; font-weight:bold;height:25px;background-color:#DE0023}
 .tabqh .tabdiv ul{list-style:none;padding-top:10px;}
-.tabqh .tabdiv ul li{height:24px;line-height:24px;overflow:hidden; no-repeat left center;text-indent:0px;}
+.tabqh .tabdiv ul li{height:24px;line-height:24px;overflow:hidden; no-repeat:left center;text-indent:0px;}
 .tabqh .tabdiv ul li a{text-decoration:none;color:#000000;}
 .tabqh .tabdiv ul li a:hover{color:#DE0023;}
 .tabqh .tabfirstli{margin-left:0px;}
@@ -88,7 +88,7 @@ a:hover { text-decoration: underline; color: #a50001; }
 .tabqh2 .menu li a{color:#000000;font:16px/normal 微软雅黑; font-weight:bold;text-decoration:none;display:block; }
 .tabqh2 .menu li a.tabactive{color:#fff;font:16px/normal 微软雅黑; font-weight:bold;height:25px;background-color:#DE0023}
 .tabqh2 .tabdiv ul{list-style:none;}
-.tabqh2 .tabdiv ul li{height:30px;line-height:30px;overflow:hidden; no-repeat left center;text-indent:0px;}
+.tabqh2 .tabdiv ul li{height:30px;line-height:30px;overflow:hidden; no-repeat:left center;text-indent:0px;}
 .tabqh2 .tabdiv ul li a{text-decoration:none;color:#000000;}
 .tabqh2 .tabdiv ul li a:hover{color:#DE0023;}
 .tabqh2 .tabfirstli{margin-left:0px;}
@@ -111,7 +111,7 @@ a:hover { text-decoration: underline; color: #a50001; }
 .tabqh3 .menu li a{color:#000000;font:16px/normal 微软雅黑; font-weight:bold;text-decoration:none;display:block; }
 .tabqh3 .menu li a.tabactive{color:#fff;font:16px/normal 微软雅黑; font-weight:bold;height:25px;background-color:#DE0023}
 .tabqh3 .tabdiv ul{padding-top:10px;}
-.tabqh3 .tabdiv ul li{height:24px;line-height:24px;overflow:hidden; no-repeat left center;text-indent:0px;}
+.tabqh3 .tabdiv ul li{height:24px;line-height:24px;overflow:hidden; no-repeat:left center;text-indent:0px;}
 .tabqh3 .tabdiv ul li a{text-decoration:none;color:#000000;}
 .tabqh3 .tabdiv ul li a:hover{color:#DE0023;}
 .tabqh3 .tabfirstli{margin-left:0px;}
@@ -179,21 +179,26 @@ a{ color:#6cf;}
 .grey10{
 	font-size: 10px;
 	color: #cccccc;
-    line-height:30px;
-float:right;
+	line-height:30px;
+	float:right;
+	font-family:"Microsoft YaHei";
 }
 .grey12-more{
 	font-size: 12px;
 	color: #cccccc;
-    line-height:20px;
-float:right;
+	line-height:20px;
+	padding-bottom:0;
+	margin-bottom:0;
+	vertical-align:bottom;
+	float:right;
+	font-family:"Microsoft YaHei";
 }
 .pink12{
 	font-size: 12px;
 	color: #F05A57;
     line-height:20px;
 float:right;
-font-family: 微软雅黑;
+	font-family:"Microsoft YaHei";
 }
 .grey10-1{
 	font-size: 10px;
@@ -220,7 +225,7 @@ font-family: 微软雅黑;
 	font-size: 20px;
 	color: #003399;
 	font-weight: bold;
-font-family: 微软雅黑;
+	font-family:"Microsoft YaHei";
 }
 
 
