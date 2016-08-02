@@ -62,8 +62,8 @@ a:hover { text-decoration: underline; color: #a50001; }
 .tabqh .menu{height:35px;width:317px;}
 .tabqh .menu ul{margin:0px;padding:0px;height:26px;list-style:none;text-align:center;}
 .tabqh .menu li{display:block;float:left;height:25px;line-height:25px;margin-left:0px;margin-top:5px;width:100px;}
-.tabqh .menu li a{color:#000000;font:16px/normal 微软雅黑; font-weight:bold;text-decoration:none;display:block; }
-.tabqh .menu li a.tabactive{color:#fff;font:16px/normal 微软雅黑; font-weight:bold;height:25px;background-color:#DE0023}
+.tabqh .menu li a{color:#000000;font:16px/normal ; font-weight:bold;text-decoration:none;display:block;padding-top:8px }
+.tabqh .menu li a.tabactive{color:#fff;font:16px/normal "Microsoft YaHei"; font-weight:bold;height:25px;background-color:#DE0023}
 .tabqh .tabdiv ul{list-style:none;padding-top:10px;}
 .tabqh .tabdiv ul li{height:24px;line-height:24px;overflow:hidden; no-repeat:left center;text-indent:0px;}
 .tabqh .tabdiv ul li a{text-decoration:none;color:#000000;}
@@ -81,12 +81,12 @@ a:hover { text-decoration: underline; color: #a50001; }
 
 
 
-.tabqh2{height:365px;margin:0px auto;position:relative;width:300px;}
+.tabqh2{padding-top:3px;height:365px;margin:0px ;position:relative;width:300px;}
 .tabqh2 .menu{height:35px;width:300px;}
 .tabqh2 .menu ul{margin:0px;padding:0px;height:26px;list-style:none;text-align:center;}
-.tabqh2 .menu li{display:block;float:left;height:25px;line-height:25px;margin-left:30px;font:微软雅黑;margin-top:5px;width:100px;}
-.tabqh2 .menu li a{color:#000000;font:16px/normal 微软雅黑; font-weight:bold;text-decoration:none;display:block; }
-.tabqh2 .menu li a.tabactive{color:#fff;font:16px/normal 微软雅黑; font-weight:bold;height:25px;background-color:#DE0023}
+.tabqh2 .menu li{display:block;float:left;height:25px;line-height:25px;margin-left:30px;font:"Microsoft YaHei";margin-top:5px;width:100px;}
+.tabqh2 .menu li a{color:#000000;font:16px/normal "Microsoft YaHei"; font-weight:bold;text-decoration:none;display:block;padding-top:8px }
+.tabqh2 .menu li a.tabactive{color:#fff;font:16px/normal "Microsoft YaHei"; font-weight:bold;height:25px;background-color:#DE0023}
 .tabqh2 .tabdiv ul{list-style:none;}
 .tabqh2 .tabdiv ul li{height:30px;line-height:30px;overflow:hidden; no-repeat:left center;text-indent:0px;}
 .tabqh2 .tabdiv ul li a{text-decoration:none;color:#000000;}
@@ -104,12 +104,12 @@ a:hover { text-decoration: underline; color: #a50001; }
 
 
 
-.tabqh3{padding-top:12px;position:relative;width:300px;}
+.tabqh3{padding-top:7px;position:relative;width:300px;}
 .tabqh3 .menu{height:15px;width:300px;}
 .tabqh3 .menu ul{padding-top:5px;padding:0px;height:26px;list-style:none;text-align:center;}
 .tabqh3 .menu li{display:block;float:left;height:25px;line-height:25px;margin-left:30px;margin-top:5px;width:100px;}
-.tabqh3 .menu li a{color:#000000;font:16px/normal 微软雅黑; font-weight:bold;text-decoration:none;display:block; }
-.tabqh3 .menu li a.tabactive{color:#fff;font:16px/normal 微软雅黑; font-weight:bold;height:25px;background-color:#DE0023}
+.tabqh3 .menu li a{color:#000000;font:16px/normal "Microsoft YaHei";; font-weight:bold;text-decoration:none;display:block;padding-top:8px}
+.tabqh3 .menu li a.tabactive{color:#fff;font:16px/normal "Microsoft YaHei"; font-weight:bold;height:25px;background-color:#DE0023}
 .tabqh3 .tabdiv ul{padding-top:10px;}
 .tabqh3 .tabdiv ul li{height:24px;line-height:24px;overflow:hidden; no-repeat:left center;text-indent:0px;}
 .tabqh3 .tabdiv ul li a{text-decoration:none;color:#000000;}
@@ -146,26 +146,27 @@ a{ color:#6cf;}
 	font-weight: bold;
 	color: #000000;
     line-height:20px;
-
+	font-family:"Microsoft YaHei";
 }
 .black12-1{
 	font-size: 12px;
 	color: #000000;
     line-height:20px;
-
+	font-family:"Microsoft YaHei";
 }
 .white12{
 	font-size: 12px;
 	color: #fff;
     line-height:20px;
-
+	font-family:"Microsoft YaHei";
 }
 .black14{
 	font-size: 14px;
 	color: #000000;
     line-height:30px;	
 	padding-left:1px;
-
+	overflow:hidden;
+	font-family:"Microsoft YaHei";
 
 }
 .black14-40{
@@ -173,7 +174,7 @@ a{ color:#6cf;}
 	color: #000000;
     line-height:40px;	
 	padding-left:1px;
-
+	font-family:"Microsoft YaHei";
 
 }
 .grey10{
@@ -205,6 +206,7 @@ float:right;
 	color: #cccccc;
     line-height:20px;
 	padding-left:18px;
+	font-family:"Microsoft YaHei";
 
 }
 .grey10bg{
@@ -214,12 +216,13 @@ float:right;
 	float:right; 
     line-height:18px;
 	vertical-align:sub;
+	font-family:"Microsoft YaHei";
 }
 .greyfriend{
 	font-size: 12px;
 	color: #666666;
     line-height:20px;
-
+	font-family:"Microsoft YaHei";
 }
 .blue20{
 	font-size: 20px;
