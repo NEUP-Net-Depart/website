@@ -206,7 +206,7 @@
       while($query->have_posts()): $query->the_post();
     ?>
   <tr>
-    <td width="332" height="24"><a href="<?php the_permalink();?>" class="blue20"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a></td>
+    <td width="332" height="24" align="center"><a href="<?php the_permalink();?>" class="blue20"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a></td>
   </tr>
   <tr>
     <td style="padding:5px;"><font class="grey12-more"><?php echo get_the_excerpt();?><a href="<?php the_permalink() ?>" class="grey10bg">更多>></a></td>
@@ -244,9 +244,9 @@
 
         <td width="320" valign="top"><table width="304" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                    <td width="320" height="26" >
+                    <td width="304" height="26" >
 
-                        <table width="320">
+                        <table width="304">
                             <td><ul ><li style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">学院团训</li></ul></td>
                             <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
                         </table>
@@ -399,7 +399,14 @@
 	<div class="og_next"></div>
 </div></td><!-- 杂志结束 -->
           <!-- 特别专题开始 -->
-		  <td width="320"><img src="<?php bloginfo('template_url'); ?>/images/temp/specialsub.jpg" width="300" height="143" /></td>
+		  <td width="320">
+              <table width="320">
+                  <tr><td width="100%"  height="5%" bgcolor="#ffffff"></td></tr>
+                  <tr><td><img src="<?php bloginfo('template_url'); ?>images/temp/specialtopic1.jpg" width="300" height="60" /></tr>
+                  <tr><td width="100%"  height="5%" bgcolor="#ffffff"></td></tr></td>
+                  <tr><td><img src="<?php bloginfo('template_url'); ?>images/temp/specialtopic2.jpg" width="300" height="60" /></td></tr>
+              </table>
+          </td>
 		  <!-- 特别专题结束 -->
         </tr>
       </table></td>
@@ -409,7 +416,7 @@
             <tr>
                 <td width="317" height="26" >
 
-                    <table width="320">
+                    <table width="317">
                         <td><ul ><li style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">通知公告</li></ul></td>
                         <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
                     </table>
@@ -583,7 +590,7 @@
     <tr>
         <td width="317" height="26" >
 
-            <table width="320">
+            <table width="317">
                 <td><ul ><li style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">友情链接</li></ul></td>
                 <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
             </table>
