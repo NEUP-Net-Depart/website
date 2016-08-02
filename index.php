@@ -213,7 +213,7 @@
   </tr>
 <?php endwhile; }else {?>
   <tr>
-    <td width="332" height="24"><a href="#" class="blue20"></a></td>
+    <td width="315" height="24"><a href="#" class="blue20"></a></td>
   </tr>
   <tr>
     <td style="padding:5px;"><font class="grey12-more"><a href="#" class="grey10bg">更多>></a></td>
@@ -242,10 +242,18 @@
 </td>
 <!-- 学院团训开始 -->
 
-        <td width="304" valign="top"><table width="304" border="0" cellspacing="0" cellpadding="0">
-          <tr>
-            <td width="304" height="26" background="<?php bloginfo('template_url'); ?>/images/banner0.jpg"><div align="right"><a href="more.php" class="grey12-more">更多&gt;&gt;</a></div></td>
-          </tr>
+        <td width="320" valign="top"><table width="304" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="320" height="26" >
+
+                        <table width="320">
+                            <td><ul ><li style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">学院团训</li></ul></td>
+                            <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                        </table>
+
+                    </td>
+                </tr>
+                <tr><td width="100%"  height="2px" bgcolor="#c74e00"></td></tr>
           <tr>
             <td style="padding:5px;"><ul>
             <?php
@@ -262,16 +270,29 @@
     </table>
 	<!-- 学院团训结束 -->
       <table width="643" border="0" align="center" cellpadding="0" cellspacing="0">
+
+          <tr>
+              <td height="38" colspan="2" style="padding:0"><!-- background="images/banner1.jpg"-->
+                  <table width="640" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                          <td >
+                              <table width="315">
+                                  <td><ul ><li style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">思想引领行动</li></ul></td>
+                                  <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                              </table>
+                          </td>
+                          <td >
+                              <table width="320">
+                                  <td><ul ><li style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">素质拓展行动</li></ul></td>
+                                  <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                              </table>
+                          </td>
+                      </tr>
+                  </table></td>
+          </tr>
+          <tr><td width="100%" colspan="2" height="2px" bgcolor="#c74e00"></td></tr>
         <tr>
-          <td height="40" colspan="2" background="<?php bloginfo('template_url'); ?>/images/banner1.jpg"><table width="640" border="0" cellspacing="0" cellpadding="0">
-            <tr>
-              <td width="336"><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
-              <td width="307"><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
-            </tr>
-          </table></td>
-        </tr>
-        <tr>
-          <td width="310" style="padding-left:10px; "><!-- 思想引领行动 -->
+          <td width="315" style="padding-left:10px; "><!-- 思想引领行动 -->
 		            <ul>
             <?php
               $cat_name = "思想引领行动";
@@ -283,7 +304,7 @@
 		  </ul>		  
 		  </td>
             <!-- 素质拓展行动 -->
-			<td width="290" style="padding-left:10px; "><ul>
+			<td width="325" style="padding-left:10px; "><ul>
             <?php
               $cat_name = "素质拓展行动";
               $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
@@ -295,16 +316,28 @@
         </tr>
       </table>
       <table width="643" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+              <td height="38" colspan="2" style="padding:0"><!-- background="images/banner1.jpg"-->
+                  <table width="640" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                          <td >
+                              <table width="315">
+                                  <td><ul ><li style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">权益服务行动</li></ul></td>
+                                  <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                              </table>
+                          </td>
+                          <td >
+                              <table width="320">
+                                  <td><ul ><li style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">组织提升行动</li></ul></td>
+                                  <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                              </table>
+                          </td>
+                      </tr>
+                  </table></td>
+          </tr>
+          <tr><td width="100%" colspan="2" height="2px" bgcolor="#c74e00"></td></tr>
         <tr>
-          <td height="42" colspan="2" background="<?php bloginfo('template_url'); ?>/images/banner2.jpg"><table width="640" border="0" cellspacing="0" cellpadding="0">
-            <tr>
-              <td width="336"><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
-              <td width="307"><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
-            </tr>
-          </table></td>
-        </tr>
-        <tr>
-          <td width="310" style="padding-left:10px; ">
+          <td width="315" style="padding-left:10px; ">
 		  <!-- 权益服务行动 -->
               <ul>
                 <?php
@@ -315,7 +348,7 @@
                 <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php the_title(); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li> 
                 <?php endwhile; wp_reset_query(); ?>
             </ul></td>
-          <td width="290" style="padding-left:10px; ">
+          <td width="325" style="padding-left:10px; ">
 		  <!-- 组织提升行动 -->
 		  <ul>
               <?php
@@ -329,11 +362,28 @@
         </tr>
       </table>
       <table width="643" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+              <td height="38" colspan="2" style="padding:0"><!-- background="images/banner1.jpg"-->
+                  <table width="640" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                          <td >
+                              <table width="315">
+                                  <td><ul ><li style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">东大青年</li></ul></td>
+
+                              </table>
+                          </td>
+                          <td >
+                              <table width="320">
+                                  <td><ul ><li style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">特别专题</li></ul></td>
+
+                              </table>
+                          </td>
+                      </tr>
+                  </table></td>
+          </tr>
+          <tr><td width="100%" colspan="2" height="2px" bgcolor="#c74e00"></td></tr>
         <tr>
-          <td height="38" colspan="2"><img src="<?php bloginfo('template_url'); ?>/images/banner3.jpg" width="643" height="40" /></td>
-        </tr>
-        <tr>
-          <td width="310" style="padding-top:10px; "><!-- 杂志翻页 -->
+          <td width="315" style="padding-top:10px; "><!-- 杂志翻页 -->
 <div class="box">
 	<div class="picbox">
 		<ul class="piclist mainlist">
@@ -349,16 +399,24 @@
 	<div class="og_next"></div>
 </div></td><!-- 杂志结束 -->
           <!-- 特别专题开始 -->
-		  <td width="290"><img src="<?php bloginfo('template_url'); ?>/images/temp/specialsub.jpg" width="300" height="143" /></td>
+		  <td width="320"><img src="<?php bloginfo('template_url'); ?>/images/temp/specialsub.jpg" width="300" height="143" /></td>
 		  <!-- 特别专题结束 -->
         </tr>
       </table></td>
   
   <!--右一表格开始-->
     <td width="317" valign="top"><table width="317" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td width="317" height="26" background="<?php bloginfo('template_url'); ?>/images/banner4.jpg"><div align="right"><a href="more.php" class="grey12-more">更多&gt;&gt;</a></div></td>
-      </tr>
+            <tr>
+                <td width="317" height="26" >
+
+                    <table width="320">
+                        <td><ul ><li style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">通知公告</li></ul></td>
+                        <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                    </table>
+
+                </td>
+            </tr>
+            <tr><td width="100%"  height="2px" bgcolor="#c74e00"></td></tr>
       <tr>
         <td style="padding:5px;">
   <!--通知公告开始-->
@@ -522,9 +580,17 @@
 	  <!--专题结束 -->
       <!--友情连接开始 -->
 <table width="317" border="0" cellspacing="0" cellpadding="0" style="padding-top:16px;">
-      <tr>
-        <td width="317" height="26" background="<?php bloginfo('template_url'); ?>/images/banner6.jpg"><div align="right"><a href="more.php" class="grey12-more">更多&gt;&gt;</a></div></td>
-      </tr>
+    <tr>
+        <td width="317" height="26" >
+
+            <table width="320">
+                <td><ul ><li style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">友情链接</li></ul></td>
+                <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+            </table>
+
+        </td>
+    </tr>
+    <tr><td width="100%"  height="2px" bgcolor="#c74e00"></td></tr>
       <tr>
         <td>
           <ul>
