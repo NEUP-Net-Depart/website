@@ -255,11 +255,12 @@ fieldset.search {
 }
 .search input.box {
 	height: 23px;
-	width: 162px;
+	width: 209px;
 	margin: 0px;
 	padding: 0px;
 	background: #ffffff;
 	position:relative;
+	font-size:14px;
 	top:-4px;
 	left:2px;
 	font-family:"Microsoft YaHei";
