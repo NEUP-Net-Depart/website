@@ -265,20 +265,22 @@ fieldset.search {
 	font-family:"Microsoft YaHei";
 }
 .search input.box:focus {
-	background: #e8e8e8 ;
+
 	outline: none;
 }
 .search button.btn {
 
-	width: 70px;
-	height: 22px;
-	margin: 1px;
-	background: url(../images/temp/searchbtn.jpg) no-repeat ;
-	background-size:70px 22px;
+	width: 26px;
+	height: 26px;
+	margin: 0px;
+	background: url(../images/temp/searchbtn1.png) no-repeat ;
+	background-size:26px 26px;
+	outline:none;
 }
 .search button.btn:hover {
-	background: url(../images/temp/searchbtn2.jpg) no-repeat ;
-	background-size:70px 22px;
+
+	background-color:#9f9f9f;
+
 }
 
 .sub-title{

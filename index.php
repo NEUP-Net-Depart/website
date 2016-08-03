@@ -247,7 +247,7 @@
                     <td width="304" height="26" >
 
                         <table width="304">
-                            <td><ul ><li class="sub-title" style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">学院团训</li></ul></td>
+                            <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">学院团训</li></ul></td>
                             <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
                         </table>
 
@@ -277,13 +277,13 @@
                       <tr>
                           <td >
                               <table width="315">
-                                  <td><ul ><li class="sub-title" style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">思想引领行动</li></ul></td>
+                                  <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">思想引领行动</li></ul></td>
                                   <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
                               </table>
                           </td>
                           <td >
                               <table width="320">
-                                  <td><ul ><li class="sub-title" style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">素质拓展行动</li></ul></td>
+                                  <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">素质拓展行动</li></ul></td>
                                   <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
                               </table>
                           </td>
@@ -322,13 +322,13 @@
                       <tr>
                           <td >
                               <table width="315">
-                                  <td><ul ><li class="sub-title" style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">权益服务行动</li></ul></td>
+                                  <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">权益服务行动</li></ul></td>
                                   <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
                               </table>
                           </td>
                           <td >
                               <table width="320">
-                                  <td><ul ><li class="sub-title" style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">组织提升行动</li></ul></td>
+                                  <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">组织提升行动</li></ul></td>
                                   <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
                               </table>
                           </td>
@@ -402,9 +402,9 @@
 		  <td width="320">
               <table width="320">
                   <tr><td width="100%"  height="5%" bgcolor="#ffffff"></td></tr>
-                  <tr><td><img src="<?php bloginfo('template_url'); ?>images/temp/specialtopic1.jpg" width="300" height="60" /></tr>
+                  <tr><td><img src="<?php bloginfo('template_url'); ?>/images/temp/specialtopic1.jpg" width="300" height="60" /></tr>
                   <tr><td width="100%"  height="5%" bgcolor="#ffffff"></td></tr></td>
-                  <tr><td><img src="<?php bloginfo('template_url'); ?>images/temp/specialtopic2.jpg" width="300" height="60" /></td></tr>
+                  <tr><td><img src="<?php bloginfo('template_url'); ?>/images/temp/specialtopic2.jpg" width="300" height="60" /></td></tr>
               </table>
           </td>
 		  <!-- 特别专题结束 -->
@@ -417,7 +417,7 @@
                 <td width="317" height="26" >
 
                     <table width="317">
-                        <td><ul ><li class="sub-title" style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">通知公告</li></ul></td>
+                        <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">通知公告</li></ul></td>
                         <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
                     </table>
 
@@ -581,7 +581,8 @@
               <tr>
                 <td style="padding-top:8px; "><img src="<?php bloginfo('template_url'); ?>/images/temp/special2.jpg" width="317" height="69" /></td>
               </tr>
-            </table>             </td>
+            </table>
+          </td>
         </tr>
       </table>
 	  <!--专题结束 -->
@@ -591,7 +592,7 @@
         <td width="317" height="26" >
 
             <table width="317">
-                <td><ul ><li class="sub-title" style="list-style:square inside url('images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">友情链接</li></ul></td>
+                <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">友情链接</li></ul></td>
                 <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
             </table>
 
