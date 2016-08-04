@@ -1,0 +1,45 @@
+.left, .right {
+    background-color: #efefef;
+}
+
+.middle {
+    border: solid 1px #cccccc;
+    padding-left: 84px;
+    padding-right: 84px;
+    padding-top: 15px;
+    padding-bottom: 20px
+}
+.position,.position a{
+    font-family: 宋体;
+    font-size: 14px;
+    color: #DE0023;
+    line-height:2em;
+}
+.more,.more a,.file_download{
+    font-family: 宋体;
+    font-size: 12px;
+    color: #000000;
+    line-height:0.5em;
+}
+.title{
+    font-family: 黑体;
+    font-size: 22px;
+    font-weight: bold;
+}
+.main_body{
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: #000000;
+    text-indent: 2em;
+    line-height: 2em;
+    margin: 0;
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
+}
+.origin{
+    font-family: 宋体;
+    font-size: 14px;
+    color: #999999;
+    margin: 0;
+    margin-bottom: 10px;
+}
