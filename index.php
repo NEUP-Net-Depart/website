@@ -194,11 +194,11 @@
 </td>
 <!--左一结束 -->
 <!--中区表格开始 -->
-    <td valign="top"><table width="636" border="0" align="center" cellpadding="0" cellspacing="0">
+    <td valign="top"><table width="643" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
-        <td width="332">
+        <td width="320">
 		<!-- 头题区域开始 -->
-		<table width="332" border="0" cellspacing="0" cellpadding="0">
+		<table width="320" cellspacing="0" cellpadding="0" >
     <?php
       $cat_name = "先锋头条";
       $query = new WP_Query("posts_per_page=1&category_name=".$cat_name);
@@ -206,7 +206,7 @@
       while($query->have_posts()): $query->the_post();
     ?>
   <tr>
-    <td width="332" height="24" align="center"><a href="<?php the_permalink();?>" class="blue20"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a></td>
+    <td width="320" height="24" align="center"><a href="<?php the_permalink();?>" class="blue20"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a></td>
   </tr>
   <tr>
     <td style="padding:5px;"><font class="grey12-more"><?php echo get_the_excerpt();?><a href="<?php the_permalink() ?>" class="grey10bg">更多>></a></td>
@@ -242,20 +242,22 @@
 </td>
 <!-- 学院团训开始 -->
 
-        <td width="320" valign="top"><table width="304" border="0" cellspacing="0" cellpadding="0">
+        <td width="320" valign="top" ><table width="304" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td width="304" height="26" >
+                    <td >
+                        <table width="320" style="padding: 0;margin-bottom: 4px" cellpadding="0" cellspacing="0">
 
-                        <table width="304">
-                            <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">学院团训</li></ul></td>
+                            <tr >
+                            <td style="margin: 0;padding: 0"><ul ><li class="sub-title3" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg')">学院团训</li></ul></td>
                             <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
-                        </table>
+                            </tr>
 
+                        </table>
                     </td>
                 </tr>
                 <tr><td width="100%"  height="2px" bgcolor="#c74e00"></td></tr>
           <tr>
-            <td style="padding:5px;"><ul>
+            <td style="padding:5px;padding-bottom: 2px"><ul>
             <?php
               $cat_name = "学院团训";
               $query = new WP_Query("posts_per_page=6&category_name=".$cat_name);
@@ -272,18 +274,20 @@
       <table width="643" border="0" align="center" cellpadding="0" cellspacing="0">
 
           <tr>
-              <td height="38" colspan="2" style="padding:0"><!-- background="images/banner1.jpg"-->
+              <td height="38" colspan="2" style="padding:0;margin:0"><!-- background="images/banner1.jpg"-->
                   <table width="640" border="0" cellspacing="0" cellpadding="0">
-                      <tr>
-                          <td >
-                              <table width="315">
-                                  <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">思想引领行动</li></ul></td>
-                                  <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                      <tr >
+                          <td style="border: 0">
+                              <table width="325" >
+                                  <tr style="border: 0">
+                                  <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');">思想引领行动</li></ul></td>
+                                  <td ><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                                  </tr>
                               </table>
                           </td>
                           <td >
-                              <table width="320">
-                                  <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">素质拓展行动</li></ul></td>
+                              <table width="320" style="outline: 0;border: 0">
+                                  <td><ul ><li class="sub-title2" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');">素质拓展行动</li></ul></td>
                                   <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
                               </table>
                           </td>
@@ -315,20 +319,22 @@
             </ul></td>
         </tr>
       </table>
-      <table width="643" border="0" align="center" cellpadding="0" cellspacing="0">
+      <table width="643" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top: 2px">
           <tr>
               <td height="38" colspan="2" style="padding:0"><!-- background="images/banner1.jpg"-->
                   <table width="640" border="0" cellspacing="0" cellpadding="0">
-                      <tr>
-                          <td >
-                              <table width="315">
-                                  <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">权益服务行动</li></ul></td>
-                                  <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                      <tr >
+                          <td style="border: 0">
+                              <table width="325" >
+                                  <tr style="border: 0">
+                                      <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">权益服务行动</li></ul></td>
+                                      <td ><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                                  </tr>
                               </table>
                           </td>
                           <td >
-                              <table width="320">
-                                  <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">组织提升行动</li></ul></td>
+                              <table width="320" style="outline: 0;border: 0">
+                                  <td><ul ><li class="sub-title2" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">组织提升行动</li></ul></td>
                                   <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
                               </table>
                           </td>
@@ -417,7 +423,7 @@
                 <td width="317" height="26" >
 
                     <table width="317">
-                        <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">通知公告</li></ul></td>
+                        <td style="margin: 0;padding: 0"><ul ><li class="sub-title4" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">通知公告</li></ul></td>
                         <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
                     </table>
 
@@ -449,7 +455,7 @@
 			<li><a href="javascript:void(0);" onmouseover="showThis(2,'divNumbera','tabContenta','tablinka');" id="tablinka2">投稿排行</a></li>
 		</ul>
 	</div>
-<table width="317" border="0" cellspacing="0" cellpadding="0" style="padding-top:4px; ">
+<table width="317" border="0" cellspacing="0" cellpadding="0" style="padding-top:3px; ">
   <tr>
     <td height="2" bgcolor="#D2691E"></td>
   </tr>
@@ -570,8 +576,16 @@
 	<!--专题开始 -->
       <table width="317" border="0" cellspacing="0" cellpadding="0">
         <tr>
-          <td width="317" height="26" background="<?php bloginfo('template_url'); ?>/images/banner5.jpg"><div align="right"><a href="more.php" class="grey12-more">更多&gt;&gt;</a></div></td>
+            <td width="317" height="26" >
+
+                <table width="317">
+                    <td><ul><li class="sub-title4" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg')">活动专题</li></ul></td>
+                    <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                </table>
+
+            </td>
         </tr>
+          <tr><td width="100%"  height="2px" bgcolor="#c74e00"></td></tr>
         <tr>
           <td style="padding-top:10px;">
             <table width="317" border="0" cellspacing="0" cellpadding="0">
@@ -587,12 +601,12 @@
       </table>
 	  <!--专题结束 -->
       <!--友情连接开始 -->
-<table width="317" border="0" cellspacing="0" cellpadding="0" style="padding-top:16px;">
+<table width="317" border="0" cellspacing="0" cellpadding="0" style="padding-top:6px;">
     <tr>
         <td width="317" height="26" >
 
             <table width="317">
-                <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">友情链接</li></ul></td>
+                <td><ul ><li class="sub-title4" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg')">友情链接</li></ul></td>
                 <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
             </table>
 
@@ -602,7 +616,7 @@
       <tr>
         <td>
           <ul>
-<table width="317" border="0" cellspacing="5" cellpadding="0">
+<table width="317" border="0" cellspacing="4" cellpadding="0">
             <tr>
               <td><li class="li"><a href="#" class="greyfriend">中国共青团</a></li></td>
               <td><li class="li"><a href="#" class="greyfriend">中国青年网</a></li></td>
