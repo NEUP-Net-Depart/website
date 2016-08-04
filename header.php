@@ -17,9 +17,17 @@
 </head>
 <body>
 
-<table width="1280" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="300"><img src="<?php bloginfo('template_url'); ?>/images/temp/top.jpg" width="1280" height="185" /></td>
+<table width="1280" border="0" align="center" cellpadding="0" cellspacing="0" style="background-color: #a4060e">
+  <tr style="border: 0">
+    <td><img src="<?php bloginfo('template_url'); ?>/images/top-left.jpg"  height="185" /></td>
+      <td >
+          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%">
+              <param name="movie" value="<?php bloginfo('template_url'); ?>/images/top-right.swf" />
+              <param name="quality" value="high" />
+              <PARAM NAME="SCALE" VALUE="exactfit">
+              <embed src="<?php bloginfo('template_url'); ?>/images/top-right.swf" quality="high" type="application/x-shockwave-flash" width="865px" height="185px"  pluginspage="http://www.macromedia.com/go/getflashplayer" />
+          </object>
+      </td>
   </tr>
 </table>
 
@@ -62,11 +70,17 @@
     </li>
      <li class="jquery_out" style="padding-left:25px;">
          <form method="get" id="searchform" action="#">
-             <fieldset class="search">
+             <table class="search" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td>
+                        <input type="text" class="box" name="s" id="s"  placeholder="" >
+                    </td>
+                    <td>
+                     <button class="btn" title="SEARCH" type="submit">站内搜索</button>
+                    </td>
 
-                 <input type="text" class="box" name="s" id="s"  placeholder="" >
-                 <button class="btn" title="SEARCH" type="submit"></button>
-             </fieldset>
+                </tr>
+             </table>
          </form>
      </li>
     <div class="clear"></div>
