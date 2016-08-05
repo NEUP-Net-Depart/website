@@ -43,3 +43,25 @@
     margin: 0;
     margin-bottom: 10px;
 }
+.main_body_div p{
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: #000000;
+    text-indent: 2em;
+    line-height: 2em;
+    margin: 0;
+}
+.main_body_div p img{
+    max-width: 600px;
+    height: auto;
+}
+.main_body_div p{
+    text-align: center;
+}
+
+.main_body_div p a{
+    font-family: 宋体;
+    font-size: 12px;
+    color: #000000;
+    line-height:0.5em;
+}
