@@ -206,7 +206,7 @@
       while($query->have_posts()): $query->the_post();
     ?>
   <tr>
-    <td width="320" height="24" align="center"><a href="<?php the_permalink();?>" class="blue20"><?php echo mb_strimwidth(get_the_title(), 0, 33,"...","UTF-8"); ?></a></td>
+    <td width="320" height="24" align="center"><a href="<?php the_permalink();?>" class="blue20"><?php echo mb_strimwidth(get_the_title(), 0, 29,"...","UTF-8"); ?></a></td>
   </tr>
   <tr>
     <td style="padding:5px;"><font class="grey12-more"><?php echo get_the_excerpt();?><a href="<?php the_permalink() ?>" class="grey10bg">更多>></a></td>
