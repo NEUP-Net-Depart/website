@@ -43,7 +43,7 @@ $catid = $category[0]->term_id;
                 </tr>
                 <tr>
                     <td>
-                       <div align="left"><p class="main_body"><?php the_content(); ?></p></div>
+                       <div align="left" class="main_body_div"><p class="main_body"><?php the_content(); ?></p></div>
                     </td>
                 </tr>
                 <tr>
