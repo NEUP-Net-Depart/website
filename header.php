@@ -47,7 +47,7 @@
 
 <table width="1280" border="0" align="center" cellpadding="0" cellspacing="0" style="background-color: #a4060e">
   <tr style="border: 0">
-    <td><img src="<?php bloginfo('template_url'); ?>/images/top-left.jpg"  height="185" /></td>
+    <td><a href="<?php echo get_option('home'); ?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/top-left.jpg"  height="185" /></a></td>
       <td >
           <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%">
               <param name="movie" value="<?php bloginfo('template_url'); ?>/images/top-right.swf" />
