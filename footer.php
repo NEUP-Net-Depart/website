@@ -10,13 +10,13 @@
                   <img src="<?php bloginfo('template_url'); ?>/images/wechat-qrcode.png" width="160" height="200" />
               </div>
               <a  rel="nofollow" href="javascript:void(0)" onMouseOut="hideImg()"  onmouseover="showImg()"class="white12">东北大学团委官方微信<br />
-NEUtuanwei123</a></td>
+东北大学团委</a></td>
           <td width="57"><img src="<?php bloginfo('template_url'); ?>/images/icons/weibo.jpg" width="48" height="40" /></td>
           <td width="138"><a href="http://weibo.com/neutuanwei" class="white12">东北大学团委官方微博<br />
-NEUtuanwei123</a></td>
+neutuanei</a></td>
           <td width="54"><img src="<?php bloginfo('template_url'); ?>/images/icons/t.jpg" width="48" height="40" /></td>
           <td width="160"><a href="http://e.t.qq.com/d2202424021" class="white12">东北大学团委官方微博<br />
-NEUtuanwei123</a></td>
+东北大学团委</a></td>
           <td bgcolor="#FFFFFF" width="1"></td>
         </tr>
       </table></td>
