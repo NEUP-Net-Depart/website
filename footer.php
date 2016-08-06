@@ -13,7 +13,7 @@
 东北大学团委</a></td>
           <td width="57"><img src="<?php bloginfo('template_url'); ?>/images/icons/weibo.jpg" width="48" height="40" /></td>
           <td width="138"><a href="http://weibo.com/neutuanwei" class="white12">东北大学团委官方微博<br />
-neutuanei</a></td>
+neutuanwei</a></td>
           <td width="54"><img src="<?php bloginfo('template_url'); ?>/images/icons/t.jpg" width="48" height="40" /></td>
           <td width="160"><a href="http://e.t.qq.com/d2202424021" class="white12">东北大学团委官方微博<br />
 东北大学团委</a></td>
