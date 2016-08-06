@@ -104,7 +104,7 @@
                         <input type="text" class="box" name="s" id="s"  placeholder="" >
                     </td>
                     <td>
-                     <button class="btn" title="SEARCH" type="submit">站内搜索</button>
+                     <button class="btn" title="SEARCH" type="submit">搜索</button>
                     </td>
 
                 </tr>
