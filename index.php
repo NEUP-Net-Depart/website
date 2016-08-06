@@ -32,13 +32,13 @@
                     <ul class="slideshow" id="slidesImgs" >
 					<!-- 焦点图数据循环开始 -->
                         <li><a href="<?php echo $pictures['top_left_url1']; ?>" target="_blank">
-                            <img src="<?php echo $pictures['top_left_picture1']; ?>" width="960" height="230" alt="" /></a><span class="title"><?php echo $pictures["top_left_content1"]; ?></span></li>
+                            <img src="<?php echo $pictures['top_left_picture1']; ?>" width="300" height="200" alt="" /></a><span class="title"><?php echo $pictures["top_left_content1"]; ?></span></li>
                         <li><a href="<?php echo $pictures['top_left_url2']; ?>" target="_blank">
-                            <img src="<?php echo $pictures['top_left_picture2']; ?>" width="960" height="230" alt="" /></a><span class="title"><?php echo $pictures["top_left_content2"]; ?></span></li>
+                            <img src="<?php echo $pictures['top_left_picture2']; ?>" width="300" height="200" alt="" /></a><span class="title"><?php echo $pictures["top_left_content2"]; ?></span></li>
                         <li><a href="<?php echo $pictures['top_left_url3']; ?>" target="_blank">
-                            <img src="<?php echo $pictures['top_left_picture3']; ?>" width="960" height="230" alt="" /></a><span class="title"><?php echo $pictures["top_left_content3"]; ?></span></li>
+                            <img src="<?php echo $pictures['top_left_picture3']; ?>" width="300" height="200" alt="" /></a><span class="title"><?php echo $pictures["top_left_content3"]; ?></span></li>
                         <li><a href="<?php echo $pictures['top_left_url4']; ?>" target="_blank">
-                            <img src="<?php echo $pictures['top_left_picture4']; ?>" width="960" height="230" alt="" /></a><span class="title"><?php echo $pictures["top_left_content4"]; ?></span></li>
+                            <img src="<?php echo $pictures['top_left_picture4']; ?>" width="300" height="200" alt="" /></a><span class="title"><?php echo $pictures["top_left_content4"]; ?></span></li>
 					<!-- 焦点图数据循环结束 -->
 					</ul>
                 </div>
