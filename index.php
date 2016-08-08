@@ -176,10 +176,10 @@
 	<div class="menu">
 		<ul>
 			<li class="tabfirstli"><a href="javascript:void(0);" onmouseover="showThis(1,'divNumber','tabContent','tablink');" class="tabactive" id="tablink1">新浪微博</a></li>
-			<li><a href="javascript:void(0);" onmouseover="showThis(2,'divNumber','tabContent','tablink');" id="tablink2">腾讯微博</a></li>
+			<li><a href="javascript:void(0);" onmouseover="showThis(2,'divNumber','tabContent','tablink');" id="tablink2">微信公众号</a></li>
 		</ul>
 	</div>
-<table width="300" border="0" cellspacing="0" cellpadding="0" style="padding-top:4px; ">
+<table width="300" border="0" cellspacing="0" cellpadding="0" style="padding-top:4px; ">git
   <tr>
     <td height="2" bgcolor="#D2691E"></td>
   </tr>
@@ -187,7 +187,12 @@
 	<div id="tabContent1" name="divNumber" class="tabdiv">
         <iframe width="100%" height="160" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=160&fansRow=2&ptype=1&speed=0&skin=5&isTitle=0&noborder=1&isWeibo=1&isFans=0&uid=5293007529&verifier=1f9f3b9c&dpc=1"></iframe></div>
 	<div id="tabContent2" name="divNumber" class="tabdiv hiddendiv">
-腾讯调用 尺寸最大宽为300PX;	</div>
+<table style="background-color: white">
+    <tr width="300px">
+        <td><img src="<?php bloginfo('template_url'); ?>/images/wechat-qrcode.png" width="130px"> </td>
+        <td width="170px"align="center"><p>扫描左侧二维码</p><p>关注微信公众平台</p><p>东北大学团委</p> </td>
+    </tr>
+</table></div>
 </div></td>
 </table>
 	<!-- 微博类选项结束 -->
