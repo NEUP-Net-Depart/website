@@ -179,7 +179,7 @@
 			<li><a href="javascript:void(0);" onmouseover="showThis(2,'divNumber','tabContent','tablink');" id="tablink2">微信公众号</a></li>
 		</ul>
 	</div>
-<table width="300" border="0" cellspacing="0" cellpadding="0" style="padding-top:4px; ">git
+<table width="300" border="0" cellspacing="0" cellpadding="0" style="padding-top:4px; ">
   <tr>
     <td height="2" bgcolor="#D2691E"></td>
   </tr>
