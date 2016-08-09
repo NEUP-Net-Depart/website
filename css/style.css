@@ -40,7 +40,7 @@ a:hover { text-decoration: underline; color: #a50001; }
 
 .frame { background: none; border: 0px solid #fff; margin-bottom: 0px; }
 .temp { margin: 0; }
-.slidebar { position: absolute; bottom: 5px; right: 5px; }
+.slidebar { position: absolute; bottom: 7px; right: 5px; }
     .slideshow span.title, .slidebar li { background: rgba(0,0,0,0.3); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); color: #FFF; overflow: hidden; }
         .slidebar li.on { background: rgba(255,255,255,0.5); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); color: #DE0023; font-weight: 700; }
 
