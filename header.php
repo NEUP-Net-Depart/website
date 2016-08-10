@@ -67,9 +67,9 @@
     <li class="mainlevel" id="mainlevel_02"><a href="#" target="_blank">东大共青团</a>
     <ul id="sub_02">
     <li><a href="#" target="_blank">团委简介</a></li>
-    <li><a href="#" target="_blank">机构设置</a></li>
-    <li><a href="#" target="_blank">工作职责</a></li>
-    <li><a href="#" target="_blank">学校团委</a></li>
+    <li><a href="#" target="_blank">组织架构</a></li>
+    <li><a href="#" target="_blank">人员概况</a></li>
+    <li><a href="#" target="_blank">职能部门</a></li>
     </ul>
     </li>
     <li class="mainlevel" id="mainlevel_03"><a href="#" target="_blank">学生组织</a>
@@ -77,13 +77,13 @@
     <li><a href="#" target="_blank">学生会</a></li>
     <li><a href="#" target="_blank">研究生会</a></li>
     <li><a href="#" target="_blank">社团联合会</a></li>
-    <li><a href="#" target="_blank">青年新媒体中心</a></li>
-    <li><a href="#" target="_blank">素质拓展中心</a></li>
-    <li><a href="#" target="_blank">社会实践中心</a></li>
     <li><a href="#" target="_blank">思想教育中心</a></li>
-    <li><a href="#" target="_blank">“践行”志愿者协会</a></li>
-    <li><a href="#" target="_blank">文化艺术中心</a></li>
+    <li><a href="#" target="_blank">青年新媒体中心</a></li>
     <li><a href="#" target="_blank">先锋网络中心</a></li>
+    <li><a href="#" target="_blank">社会实践中心</a></li>
+    <li><a href="#" target="_blank">“践行”志愿者协会</a></li>
+    <li><a href="#" target="_blank">素质拓展中心</a></li>
+    <li><a href="#" target="_blank">文化艺术中心</a></li>
     </ul>
     </li>
     <li class="mainlevel" id="mainlevel_04"><a href="#" target="_blank">网上团支部</a></li>
@@ -104,7 +104,7 @@
                         <input type="text" class="box" name="s" id="s"  placeholder="" >
                     </td>
                     <td>
-                     <button class="btn" title="SEARCH" type="submit">搜索</button>
+                     <button class="btn" title="SEARCH" type="submit" >搜索</button>
                     </td>
 
                 </tr>

@@ -22,7 +22,7 @@
   <!--左一表格 -->
     <!--焦点图开始 -->
 	 <td width="300" valign="top">
-       <table width="300" height="180" border="0" align="center" cellpadding="0" cellspacing="0">
+       <table width="300" height="240" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
     <td width="300"><div class="comiis_wrapad" id="slideContainer">
         <div id="frameHlicAe" class="frame cl">
@@ -32,13 +32,13 @@
                     <ul class="slideshow" id="slidesImgs" >
 					<!-- 焦点图数据循环开始 -->
                         <li><a href="<?php echo $pictures['top_left_url1']; ?>" target="_blank">
-                            <img src="<?php echo $pictures['top_left_picture1']; ?>" width="300" height="200" alt="" /></a><span class="title"><?php echo mb_strimwidth($pictures["top_left_content1"], 0, 28,"","UTF-8"); ?></span></li>
+                            <img src="<?php echo $pictures['top_left_picture1']; ?>" width="300" height="240" alt="" /></a><span class="title"><?php echo mb_strimwidth($pictures["top_left_content1"], 0, 23,"","UTF-8"); ?></span></li>
                         <li><a href="<?php echo $pictures['top_left_url2']; ?>" target="_blank">
-                            <img src="<?php echo $pictures['top_left_picture2']; ?>" width="300" height="200" alt="" /></a><span class="title"><?php echo mb_strimwidth($pictures["top_left_content2"], 0, 28,"","UTF-8"); ?></span></li>
+                            <img src="<?php echo $pictures['top_left_picture2']; ?>" width="300" height="240" alt="" /></a><span class="title"><?php echo mb_strimwidth($pictures["top_left_content2"], 0, 23,"","UTF-8"); ?></span></li>
                         <li><a href="<?php echo $pictures['top_left_url3']; ?>" target="_blank">
-                            <img src="<?php echo $pictures['top_left_picture3']; ?>" width="300" height="200" alt="" /></a><span class="title"><?php echo mb_strimwidth($pictures["top_left_content3"], 0, 28,"","UTF-8"); ?></span></li>
+                            <img src="<?php echo $pictures['top_left_picture3']; ?>" width="300" height="240" alt="" /></a><span class="title"><?php echo mb_strimwidth($pictures["top_left_content3"], 0, 23,"","UTF-8"); ?></span></li>
                         <li><a href="<?php echo $pictures['top_left_url4']; ?>" target="_blank">
-                            <img src="<?php echo $pictures['top_left_picture4']; ?>" width="300" height="200" alt="" /></a><span class="title"><?php echo mb_strimwidth($pictures["top_left_content4"], 0, 28,"","UTF-8"); ?></span></li>
+                            <img src="<?php echo $pictures['top_left_picture4']; ?>" width="300" height="240" alt="" /></a><span class="title"><?php echo mb_strimwidth($pictures["top_left_content4"], 0, 23,"","UTF-8"); ?></span></li>
 					<!-- 焦点图数据循环结束 -->
 					</ul>
                 </div>
@@ -79,7 +79,7 @@
 	</div>
 <table width="300" border="0" cellspacing="0" cellpadding="0" style="padding-top:4px; ">
   <tr>
-    <td height="2" bgcolor="#D2691E"></td>
+    <td height="2" bgcolor="#C74E00"></td>
   </tr>
 </table>	<div id="tabContenth1" name="divNumberh" class="tabdiv">
 		<ul><table width="300" height="176" border="0" cellpadding="0" cellspacing="0">
@@ -188,7 +188,7 @@
       while($query->have_posts()): $query->the_post();
     ?>
   <tr>
-    <td width="320" height="24" align="center"><a href="<?php the_permalink();?>" class="blue20"><?php echo mb_strimwidth(get_the_title(), 0, 29,"...","UTF-8"); ?></a></td>
+    <td width="320" height="60" align="center"><a href="<?php the_permalink();?>" class="blue20"><?php echo mb_strimwidth(get_the_title(), 0, 58,"...","UTF-8"); ?></a></td>
   </tr>
   <tr>
     <td style="padding:5px;"><font class="grey12-more"><?php echo get_the_excerpt();?><a href="<?php the_permalink() ?>" class="grey10bg">更多>></a></td>
@@ -205,7 +205,7 @@
     <td height="8"  background="<?php bloginfo('template_url'); ?>/images/dotlinebg.jpg"></td>
   </tr>
   <tr>
-    <td style="padding:6px;">
+    <td style="padding:7px;">
 	<!-- 头题文字循环开始 -->
 	<ul>
       <?php
@@ -242,7 +242,7 @@
             <td style="padding:5px;padding-bottom: 2px"><ul>
             <?php
               $cat_name = "学院团训";
-              $query = new WP_Query("posts_per_page=6&category_name=".$cat_name);
+              $query = new WP_Query("posts_per_page=7&category_name=".$cat_name);
               while($query->have_posts()): $query->the_post();
             ?>
               <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
@@ -413,12 +413,12 @@
             </tr>
             <tr><td width="100%"  height="2px" bgcolor="#c74e00"></td></tr>
       <tr>
-        <td style="padding:5px;">
+        <td style="padding:5px;padding-bottom: 12px;">
   <!--通知公告开始-->
           <ul>
               <?php
                 $cat_name = "通知公告";
-                $query = new WP_Query("posts_per_page=6&category_name=".$cat_name);
+                $query = new WP_Query("posts_per_page=7&category_name=".$cat_name);
                 while($query->have_posts()): $query->the_post();
               ?>
 		        <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
@@ -439,7 +439,7 @@
 	</div>
 <table width="317" border="0" cellspacing="0" cellpadding="0" style="padding-top:3px; ">
   <tr>
-    <td height="2" bgcolor="#D2691E"></td>
+    <td height="2" bgcolor="#C74E00"></td>
   </tr>
 </table>
 	<div id="tabContenta1" name="divNumbera" class="tabdiv">
@@ -458,11 +458,14 @@
 </table>
 <table width="317" height="73" border="0" cellpadding="0" cellspacing="0" background="<?php bloginfo('template_url'); ?>/images/dotlinebg2.jpg">
 
-  <tr>
-    <td width="70"><table width="54" height="50" border="0" align="center" cellpadding="0" cellspacing="0">
-      <tr>
-        <td background="<?php bloginfo('template_url'); ?>/images/calbg.jpg" align="center"><font class="white12"><?php echo $monthes[substr($time2, 5, 2)] ?></font><br />
-              <font class="black14"><strong><?php if(substr($time2, 8, 2) < 10) echo substr($time2, 9, 1); else echo substr($time2, 8, 2); ?></strong></font></td>
+  <tr >
+    <td width="70" height="50">
+        <table width="54" height="50" border="0" align="center" cellpadding="0" cellspacing="0" style="position: relative">
+      <tr >
+          <td background="<?php bloginfo('template_url'); ?>/images/calbg.jpg" align="center">
+              <font class="white12"><?php echo $monthes[substr($time2, 5, 2)] ?></font><br />
+              <font class="black14"><strong><?php if(substr($time2, 8, 2) < 10) echo substr($time2, 9, 1); else echo substr($time2, 8, 2); ?></strong></font>
+        </td>
       </tr>
     </table></td>
     <td><div align="right"><a href="#" class="pink12"><?php echo($title2)?><br />
