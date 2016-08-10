@@ -81,17 +81,56 @@
   <tr>
     <td height="2" bgcolor="#C74E00"></td>
   </tr>
+
+<?php 
+    $cat_name = "活力支部";
+    $query = new WP_Query("posts_per_page=10&category_name=".$cat_name);
+    $i = 0;
+    $images_huoli = [];
+    while($query->have_posts())
+    {
+        $query->the_post();
+        $image = catch_that_image();
+        if($image != "")
+        {
+            $images_huoli[$i]['image'] = $image;
+            $images_huoli[$i]['url'] = get_permalink();
+            $images_huoli[$i++]['title'] = get_the_title();
+        }
+        if($i == 2)
+            break;
+    }
+    wp_reset_query();
+    $cat_name = "缤纷社团";
+    $query = new WP_Query("posts_per_page=10&category_name=".$cat_name);
+    $i = 0;
+    $images_shetuan = [];
+    while($query->have_posts())
+    {
+        $query->the_post();
+        $image = catch_that_image();
+        if($image != "")
+        {
+            $images_shetuan[$i]['image'] = $image;
+            $images_shetuan[$i]['url'] = get_permalink();
+            $images_shetuan[$i++]['title'] = get_the_title();
+        }
+        if($i == 2)
+            break;
+    }
+    wp_reset_query();
+?>
 </table>	<div id="tabContenth1" name="divNumberh" class="tabdiv">
 		<ul><table width="300" height="176" border="0" cellpadding="0" cellspacing="0">
   <tr>
 <!-- 选项卡1图片开始 -->
-   <td height="119" align="left"><img src="<?php bloginfo('template_url'); ?>/images/temp/focuspicsmall.jpg" width="140" height="112" /></td>
-   <td align="right"><img src="<?php bloginfo('template_url'); ?>/images/temp/focuspicsmall.jpg" width="140" height="112" /></td>
+   <td height="119" align="left"><a href="<?php echo $images_huoli[0]['url']; ?>"><img src="<?php echo $images_huoli[0]['image']; ?>" width="140" height="112" /></a></td>
+   <td align="right"><a href="<?php echo $images_huoli[1]['url']; ?>"><img src="<?php echo $images_huoli[1]['image']; ?>" width="140" height="112" /></a></td>
  </tr>
   <tr>
-    <td height="53"><a href="#" class="black12">习近平会见德国总理默克默克尔克默克尔</a></td>
+    <td height="53"><a href="#" class="black12"><?php echo $images_huoli[0]['title']; ?></a></td>
 
-    <td style="padding-left:10px;"><a href="#" class="black12">习近平会见德国总理默克默克尔克默克尔</a></td>
+    <td style="padding-left:10px;"><a href="#" class="black12"><?php echo $images_huoli[1]['title']; ?></a></td>
   </tr>
 </table>
 <!-- 选项卡1图片结束 -->
@@ -126,13 +165,13 @@
 		<ul><table width="300" height="176" border="0" cellpadding="0" cellspacing="0">
   <tr>
 <!-- 选项卡2图片开始 -->
-   <td height="119" align="left"><img src="<?php bloginfo('template_url'); ?>/images/temp/focuspicsmall.jpg" width="140" height="112" /></td>
-   <td align="right"><img src="<?php bloginfo('template_url'); ?>/images/temp/focuspicsmall.jpg" width="140" height="112" /></td>
+   <td height="119" align="left"><a href="<?php echo $images_shetuan[0]['url']; ?>"><img src="<?php echo $images_shetuan[0]['image']; ?>" width="140" height="112" /></a></td>
+   <td align="right"><a href="<?php echo $images_shetuan[1]['url']; ?>"><img src="<?php echo $images_shetuan[1]['image']; ?>" width="140" height="112" /></a></td>
  </tr>
   <tr>
-    <td height="53"><a href="#" class="black12">习近平会见德国总理默克默克尔克默克尔</a></td>
+    <td height="53"><a href="<?php echo $images_shetuan[0]['url']; ?>" class="black12"><?php echo $images_shetuan[0]['title']; ?></a></td>
 
-    <td style="padding-left:10px;"><a href="#" class="black12">习近平会见德国总理默克默克尔克默克尔</a></td>
+    <td style="padding-left:10px;"><a href="<?php echo $images_shetuan[1]['url']; ?>" class="black12"><?php echo $images_shetuan[1]['totle']; ?></a></td>
   </tr>
 </table>
 <!-- 选项卡2图片结束 -->

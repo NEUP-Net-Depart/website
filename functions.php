@@ -10,8 +10,22 @@
     return "";
     }
     add_filter("excerpt_more", "new_excerpt_more");
-    //自定义截断函数
-    function dm_strimwidth($str ,$start , $width ,$trimmarker ){
-        $output = preg_replace('/^(?:[\x00-\x7F]|[\xC0-\xFF][\x80-\xBF]+){0,'.$start.'}((?:[\x00-\x7F]|[\xC0-\xFF][\x80-\xBF]+){0,'.$width.'}).*/s','\1',$str);
-        return $output.$trimmarker;
+    
+    function catch_that_image() {
+        global $post, $posts;
+        $first_img = '';
+        ob_start();
+        ob_end_clean();
+        $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
+         
+        //获取文章中第一张图片的路径并输出
+        $first_img = $matches [1] [0];
+         
+        //如果文章无图片，返回空
+         
+        if(empty($first_img)){
+            $first_img = "";
+        }
+         
+        return $first_img;
     }
