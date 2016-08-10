@@ -375,11 +375,9 @@
 <div class="box">
 	<div class="picbox">
 		<ul class="piclist mainlist">
-			<li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/1.jpg" width="100" height="130" /></a></li>
-			<li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/2.jpg" width="100" height="130" /></a></li>
-			<li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/3.jpg" width="100" height="130" /></a></li>
-			<li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/4.jpg" width="100" height="130" /></a></li>
-
+    <?php for($i = 1; $i <= 4; $i++):?>
+			<li><a href="<?php echo $pictures["neuyouth_url$i"]; ?>" target="_blank"><img src="<?php echo $pictures["neuyouth_picture$i"] ?>" width="100" height="130" /></a></li>
+    <?php endfor; ?>
 		</ul>
         <ul class="piclist swaplist"></ul>
 	</div>
@@ -390,9 +388,9 @@
 		  <td width="320">
               <table width="320">
                   <tr><td width="100%"  height="5%" bgcolor="#ffffff"></td></tr>
-                  <tr><td><img src="<?php bloginfo('template_url'); ?>/images/temp/specialtopic1.jpg" width="300" height="60" /></tr>
-                  <tr><td width="100%"  height="5%" bgcolor="#ffffff"></td></tr></td>
-                  <tr><td><img src="<?php bloginfo('template_url'); ?>/images/temp/specialtopic2.jpg" width="300" height="60" /></td></tr>
+                  <tr><td><a href="<?php echo $pictures["zhuan_url1"]; ?>"><img src="<?php echo $pictures["zhuan_picture1"]; ?>" width="300" height="60" /></a></td></tr>
+                  <tr><td width="100%"  height="5%" bgcolor="#ffffff"></td></tr>
+                  <tr><td><a href="<?php echo $pictures["zhuan_url2"]; ?>"><img src="<?php echo $pictures["zhuan_picture2"]; ?>" width="300" height="60" /></a></td></tr>
               </table>
           </td>
 		  <!-- 特别专题结束 -->
@@ -575,10 +573,10 @@
           <td style="padding-top:10px;">
             <table width="317" border="0" cellspacing="0" cellpadding="0">
               <tr>
-                <td><img src="<?php bloginfo('template_url'); ?>/images/temp/special1.jpg" width="317" height="69" /></td>
+                <td><a href="<?php echo $pictures['activity_url1']; ?>"><img src="<?php echo $pictures['activity_picture1'] ?>" width="317" height="69" /></a></td>
               </tr>
               <tr>
-                <td style="padding-top:8px; "><img src="<?php bloginfo('template_url'); ?>/images/temp/special2.jpg" width="317" height="69" /></td>
+                <td style="padding-top:8px; "><a href="<?php echo $pictures['activity_url2']; ?>"><img src="<?php echo $pictures['activity_picture2'] ?>" width="317" height="69" /></a></td>
               </tr>
             </table>
           </td>
