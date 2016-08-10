@@ -128,9 +128,9 @@
    <td align="right"><a href="<?php echo $images_huoli[1]['url']; ?>"><img src="<?php echo $images_huoli[1]['image']; ?>" width="140" height="112" /></a></td>
  </tr>
   <tr>
-    <td height="53"><a href="#" class="black12"><?php echo $images_huoli[0]['title']; ?></a></td>
+    <td height="53"><a href="<?php echo $images_huoli[0]['url']; ?>" class="black12"><?php echo mb_strimwidth($images_huoli[0]['title'], 0, 22,"","UTF-8");?></a></td>
 
-    <td style="padding-left:10px;"><a href="#" class="black12"><?php echo $images_huoli[1]['title']; ?></a></td>
+    <td style="padding-left:10px;"><a href="<?php echo $images_huoli[1]['url']; ?>" class="black12"><?php echo mb_strimwidth($images_huoli[1]['title'], 0, 22,"","UTF-8"); ?></a></td>
   </tr>
 </table>
 <!-- 选项卡1图片结束 -->
@@ -169,9 +169,9 @@
    <td align="right"><a href="<?php echo $images_shetuan[1]['url']; ?>"><img src="<?php echo $images_shetuan[1]['image']; ?>" width="140" height="112" /></a></td>
  </tr>
   <tr>
-    <td height="53"><a href="<?php echo $images_shetuan[0]['url']; ?>" class="black12"><?php echo $images_shetuan[0]['title']; ?></a></td>
+    <td height="53"><a href="<?php echo $images_shetuan[0]['url']; ?>" class="black12"><?php echo mb_strimwidth($images_shetuan[0]['title'], 0, 22,"","UTF-8"); ?></a></td>
 
-    <td style="padding-left:10px;"><a href="<?php echo $images_shetuan[1]['url']; ?>" class="black12"><?php echo $images_shetuan[1]['totle']; ?></a></td>
+    <td style="padding-left:10px;"><a href="<?php echo $images_shetuan[1]['url']; ?>" class="black12"><?php echo mb_strimwidth($images_shetuan[1]['title'], 0, 22,"","UTF-8"); ?></a></td>
   </tr>
 </table>
 <!-- 选项卡2图片结束 -->
