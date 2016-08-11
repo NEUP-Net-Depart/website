@@ -589,19 +589,19 @@
           <ul>
 <table width="317" border="0" cellspacing="4" cellpadding="0">
             <tr>
-              <td><li class="li"><a href="#" class="greyfriend">中国共青团</a></li></td>
-              <td><li class="li"><a href="#" class="greyfriend">中国青年网</a></li></td>
-              <td><li class="li"><a href="#" class="greyfriend">教育部</a></li></td>
+              <td><li class="li"><a href="http://www.ccyl.org.cn/" class="greyfriend">中国共青团</a></li></td>
+              <td><li class="li"><a href="http://www.youth.cn/" class="greyfriend">中国青年网</a></li></td>
+              <td><li class="li"><a href="http://www.moe.gov.cn/" class="greyfriend">教育部</a></li></td>
               </tr>
             <tr>
-    <td><li class="li"><a href="#" class="greyfriend">人民网</a></li></td>
-    <td><li class="li"><a href="#" class="greyfriend">新华网</a></li></td>
-    <td><li class="li"><a href="#" class="greyfriend">辽宁共青团</a></li></td>
+    <td><li class="li"><a href="http://www.people.com.cn/" class="greyfriend">人民网</a></li></td>
+    <td><li class="li"><a href="http://www.xinhuanet.com/" class="greyfriend">新华网</a></li></td>
+    <td><li class="li"><a href="http://www.lngqt.com/index.html" class="greyfriend">辽宁共青团</a></li></td>
               </tr>
             <tr>
-    <td><li class="li"><a href="#" class="greyfriend">青年之声</a></li></td>
-    <td><li class="li"><a href="#" class="greyfriend">西部计划官网</a></li></td>
-    <td><li class="li"><a href="#" class="greyfriend">中国青年志愿者网</a></li></td>
+    <td><li class="li"><a href="neu.ln.qnzs.youth.cn/wsgqt/index" class="greyfriend">青年之声</a></li></td>
+    <td><li class="li"><a href="http://xibu.youth.cn/" class="greyfriend">西部计划官网</a></li></td>
+    <td><li class="li"><a href="http://www.zgzyz.org.cn/" class="greyfriend">中国青年志愿者网</a></li></td>
               </tr>
           </table>
           </ul></td>
