@@ -50,7 +50,7 @@
 
 <table width="1280" border="0" align="center" cellpadding="0" cellspacing="0" style="background-color: #a4060e">
   <tr style="border: 0">
-    <td><a href="<?php echo get_option('home'); ?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/top-left.jpg"  height="185" /></a></td>
+    <td><a href="<?php echo get_option('home'); ?>" target="_self"><img src="<?php bloginfo('template_url'); ?>/images/top-left.jpg"  height="185" /></a></td>
       <td >
           <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%">
               <param name="movie" value="<?php bloginfo('template_url'); ?>/images/top-right.swf" />
@@ -66,13 +66,13 @@
 <!-- 导航条开始 -->
 <div id="menu">
 <ul id="nav">
-    <li class="mainlevel" id="mainlevel_01"><a href="<?php echo get_option('home'); ?>" target="_blank">先锋首页</a>    </li>
+    <li class="mainlevel" id="mainlevel_01"><a href="<?php echo get_option('home'); ?>" target="_self">先锋首页</a>    </li>
     <li class="mainlevel" id="mainlevel_02"><a href="#" target="_blank">东大共青团</a>
     <ul id="sub_02">
-    <li><a href="#" target="_blank">团委简介</a></li>
-    <li><a href="#" target="_blank">组织架构</a></li>
-    <li><a href="#" target="_blank">人员概况</a></li>
-    <li><a href="#" target="_blank">职能部门</a></li>
+    <li><a href="<?php echo get_option('home'); ?>/团委简介" target="_blank">团委简介</a></li>
+    <li><a href="<?php echo get_option('home'); ?>/组织架构" target="_blank">组织架构</a></li>
+    <li><a href="<?php echo get_option('home'); ?>/人员概况" target="_blank">人员概况</a></li>
+    <li><a href="<?php echo get_option('home'); ?>/职能部门" target="_blank">职能部门</a></li>
     </ul>
     </li>
     <li class="mainlevel" id="mainlevel_03"><a href="#" target="_blank">学生组织</a>
@@ -80,9 +80,9 @@
     <li><a href="#" target="_blank">学生会</a></li>
     <li><a href="#" target="_blank">研究生会</a></li>
     <li><a href="#" target="_blank">社团联合会</a></li>
-    <li><a href="#" target="_blank">思想教育中心</a></li>
-    <li><a href="#" target="_blank">青年新媒体中心</a></li>
-    <li><a href="#" target="_blank">先锋网络中心</a></li>
+    <li><a href="<?php echo get_option('home'); ?>/思想教育中心" target="_blank">思想教育中心</a></li>
+    <li><a href="<?php echo get_option('home'); ?>/青年新媒体中心" target="_blank">青年新媒体中心</a></li>
+    <li><a href="<?php echo get_option('home'); ?>/先锋网络中心" target="_blank">先锋网络中心</a></li>
     <li><a href="#" target="_blank">社会实践中心</a></li>
     <li><a href="#" target="_blank">“践行”志愿者协会</a></li>
     <li><a href="#" target="_blank">素质拓展中心</a></li>
@@ -90,8 +90,8 @@
     </ul>
     </li>
     <li class="mainlevel" id="mainlevel_04"><a href="#" target="_blank">网上团支部</a></li>
-    <li class="mainlevel" id="mainlevel_05"><a href="neu.ln.qnzs.youth.cn/wsgqt/index" target="_blank">青年之声</a></li>
-    <li class="mainlevel" id="mainlevel_06"><a href="bbs.neupioneer.com" target="_blank">先锋论坛</a></li>
+    <li class="mainlevel" id="mainlevel_05"><a href="http://neu.ln.qnzs.youth.cn/wsgqt/index" target="_blank">青年之声</a></li>
+    <li class="mainlevel" id="mainlevel_06"><a href="http://bbs.neupioneer.com" target="_blank">先锋论坛</a></li>
     <li class="mainlevel" id="mainlevel_07"><a href="#" target="_blank">文件下载</a>
     <ul id="sub_07">
     <li><a href="#" target="_blank">上级文件</a></li>

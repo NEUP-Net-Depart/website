@@ -59,7 +59,7 @@
                             <tr>
                                 <td>
                                     <div class="left_title_div" style="text-align: left;height: 45px">
-                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/结构设置" class="left_title <?php if ($title == "结构设置"): echo "active"; endif;?>" style="margin-left: 10px">结构设置</a></p>
+                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/组织架构" class="left_title <?php if ($title == "组织架构"): echo "active"; endif;?>" style="margin-left: 10px">组织架构</a></p>
                                     </div>
                                 </td>
                             </tr>
@@ -81,7 +81,7 @@
                             <tr>
                                 <td>
                                     <div class="left_title_div" style="text-align: left;height: 45px">
-                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/工作职责" class="left_title <?php if ($title == "工作职责"): echo "active"; endif;?>" style="margin-left: 10px">工作职责</a></p>
+                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/人员概况" class="left_title <?php if ($title == "人员概况"): echo "active"; endif;?>" style="margin-left: 10px">人员概况</a></p>
                                     </div>
                                 </td>
                             </tr>

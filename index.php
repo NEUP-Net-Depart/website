@@ -428,9 +428,9 @@
 		  <td width="320">
               <table width="320">
                   <tr><td width="100%"  height="5%" bgcolor="#ffffff"></td></tr>
-                  <tr><td><a href="<?php echo $pictures["zhuan_url1"]; ?>"><img src="<?php echo $pictures["zhuan_picture1"]; ?>" width="300" height="60" /></a></td></tr>
+                  <tr><td><a href="<?php echo $pictures["zhuan_url1"]; ?>" target="_blank"><img src="<?php echo $pictures["zhuan_picture1"]; ?>" width="300" height="60" /></a></td></tr>
                   <tr><td width="100%"  height="5%" bgcolor="#ffffff"></td></tr>
-                  <tr><td><a href="<?php echo $pictures["zhuan_url2"]; ?>"><img src="<?php echo $pictures["zhuan_picture2"]; ?>" width="300" height="60" /></a></td></tr>
+                  <tr><td><a href="<?php echo $pictures["zhuan_url2"]; ?>" target="_blank"><img src="<?php echo $pictures["zhuan_picture2"]; ?>" width="300" height="60" /></a></td></tr>
               </table>
           </td>
 		  <!-- 特别专题结束 -->
@@ -561,10 +561,10 @@
           <td style="padding-top:10px;">
             <table width="317" border="0" cellspacing="0" cellpadding="0">
               <tr>
-                <td><a href="<?php echo $pictures['activity_url1']; ?>"><img src="<?php echo $pictures['activity_picture1'] ?>" width="317" height="69" /></a></td>
+                <td><a href="<?php echo $pictures['activity_url1']; ?>" target="_blank"><img src="<?php echo $pictures['activity_picture1'] ?>" width="317" height="69" /></a></td>
               </tr>
               <tr>
-                <td style="padding-top:8px; "><a href="<?php echo $pictures['activity_url2']; ?>"><img src="<?php echo $pictures['activity_picture2'] ?>" width="317" height="69" /></a></td>
+                <td style="padding-top:8px; "><a href="<?php echo $pictures['activity_url2']; ?>" target="_blank"><img src="<?php echo $pictures['activity_picture2'] ?>" width="317" height="69" /></a></td>
               </tr>
             </table>
           </td>
@@ -589,19 +589,19 @@
           <ul>
 <table width="317" border="0" cellspacing="4" cellpadding="0">
             <tr>
-              <td><li class="li"><a href="http://www.ccyl.org.cn/" class="greyfriend">中国共青团</a></li></td>
-              <td><li class="li"><a href="http://www.youth.cn/" class="greyfriend">中国青年网</a></li></td>
-              <td><li class="li"><a href="http://www.moe.gov.cn/" class="greyfriend">教育部</a></li></td>
+              <td><li class="li"><a href="http://www.ccyl.org.cn/" class="greyfriend" target="_blank">中国共青团</a></li></td>
+              <td><li class="li"><a href="http://www.youth.cn/" class="greyfriend" target="_blank">中国青年网</a></li></td>
+              <td><li class="li"><a href="http://www.moe.gov.cn/" class="greyfriend" target="_blank">教育部</a></li></td>
               </tr>
             <tr>
-    <td><li class="li"><a href="http://www.people.com.cn/" class="greyfriend">人民网</a></li></td>
-    <td><li class="li"><a href="http://www.xinhuanet.com/" class="greyfriend">新华网</a></li></td>
-    <td><li class="li"><a href="http://www.lngqt.com/index.html" class="greyfriend">辽宁共青团</a></li></td>
+    <td><li class="li"><a href="http://www.people.com.cn/" class="greyfriend" target="_blank">人民网</a></li></td>
+    <td><li class="li"><a href="http://www.xinhuanet.com/" class="greyfriend" target="_blank">新华网</a></li></td>
+    <td><li class="li"><a href="http://www.lngqt.com/index.html" class="greyfriend" target="_blank">辽宁共青团</a></li></td>
               </tr>
             <tr>
-    <td><li class="li"><a href="neu.ln.qnzs.youth.cn/wsgqt/index" class="greyfriend">青年之声</a></li></td>
-    <td><li class="li"><a href="http://xibu.youth.cn/" class="greyfriend">西部计划官网</a></li></td>
-    <td><li class="li"><a href="http://www.zgzyz.org.cn/" class="greyfriend">中国青年志愿者网</a></li></td>
+    <td><li class="li"><a href="neu.ln.qnzs.youth.cn/wsgqt/index" class="greyfriend" target="_blank">青年之声</a></li></td>
+    <td><li class="li"><a href="http://xibu.youth.cn/" class="greyfriend" target="_blank">西部计划官网</a></li></td>
+    <td><li class="li"><a href="http://www.zgzyz.org.cn/" class="greyfriend" target="_blank">中国青年志愿者网</a></li></td>
               </tr>
           </table>
           </ul></td>
