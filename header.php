@@ -34,6 +34,9 @@
 <?php if(is_single()):?>
 <link href="<?php bloginfo('template_url'); ?>/css/contentpagestyle2.css" rel="stylesheet"/>
 <?php endif;?>
+<?php if(is_page()):?>
+<link href="<?php bloginfo('template_url'); ?>/css/contentpagestyle1.css" rel="stylesheet"/>
+<?php endif;?>
 <!-- 效果开始 -->
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/tabqh.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slideshow.js"></script>
