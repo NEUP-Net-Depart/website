@@ -13,6 +13,7 @@
   $link2 = $wpdb->get_var("SELECT `option_value` FROM  $wpdb->options  WHERE option_name = 'link2'");
   $link3 = $wpdb->get_var("SELECT `option_value` FROM  $wpdb->options  WHERE option_name = 'link3'");
   $pictures = get_option("neup_picture");
+  $ranklist = get_option("neup_ranklist");
   $monthes = [ "01" => "一月", "02" => "二月", "03" => "三月", "04" => "四月", "05" => "五月", "06" => "六月", 
                "07" => "七月", "08" => "八月", "09" => "九月", "10" => "十月", "11" => "十一月","12" => "十二月" ];
 ?>
@@ -528,69 +529,17 @@
   <!--投稿排行开始-->
 	<div id="tabContenta2" name="divNumbera" class="tabdiv hiddendiv">
 <table width="317" border="0" cellpadding="0" cellspacing="0" background="<?php bloginfo('template_url'); ?>/images/rankbg.jpg">
+<?php for($i = 1; $i <= 7; $i++):?>
   <tr>
     <td height="32"><table width="317" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td width="35"><div align="center" class="black12">1</div></td>
-        <td width="233" class="black14">材料科学与工程学院</td>
-        <td width="49" class="black12-1">[100篇]</td>
+        <td width="35"><div align="center" class="black12"><?php echo $i; ?></div></td>
+        <td width="233" class="black14"><?php echo $ranklist["academy$i"]; ?></td>
+        <td width="49" class="black12-1">[<?php echo $ranklist["num$i"]; ?>篇]</td>
       </tr>
     </table></td>
   </tr>
-  <tr>
-    <td height="32"><table width="317" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td width="35"><div align="center" class="black12">2</div></td>
-        <td width="233" class="black14">材料科学与工程学院</td>
-        <td width="49" class="black12-1">[100篇]</td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td height="32"><table width="317" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td width="35"><div align="center" class="black12">3</div></td>
-        <td width="233" class="black14">材料科学与工程学院</td>
-        <td width="49" class="black12-1">[100篇]</td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td height="32"><table width="317" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td width="35"><div align="center" class="black12">4</div></td>
-        <td width="233" class="black14">材料科学与工程学院</td>
-        <td width="49" class="black12-1">[100篇]</td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td height="32"><table width="317" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td width="35"><div align="center" class="black12">5</div></td>
-        <td width="233" class="black14">材料科学与工程学院</td>
-        <td width="49" class="black12-1">[100篇]</td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td height="32"><table width="317" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td width="35"><div align="center" class="black12">6</div></td>
-        <td width="233" class="black14">材料科学与工程学院</td>
-        <td width="49" class="black12-1">[100篇]</td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td height="32"><table width="317" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td width="35"><div align="center" class="black12">7</div></td>
-        <td width="233" class="black14">材料科学与工程学院</td>
-        <td width="49" class="black12-1">[100篇]</td>
-      </tr>
-    </table></td>
-  </tr>
+<?php endfor;?>
 </table>
 <!--投稿排行结束-->
 	</div>
