@@ -67,7 +67,7 @@
 <div id="menu">
 <ul id="nav">
     <li class="mainlevel" id="mainlevel_01"><a href="<?php echo get_option('home'); ?>" target="_self">先锋首页</a>    </li>
-    <li class="mainlevel" id="mainlevel_02"><a href="#" target="_blank">东大共青团</a>
+    <li class="mainlevel" id="mainlevel_02"><a href="<?php echo get_option('home'); ?>/团委简介" target="_blank">东大共青团</a>
     <ul id="sub_02">
     <li><a href="<?php echo get_option('home'); ?>/团委简介" target="_blank">团委简介</a></li>
     <li><a href="<?php echo get_option('home'); ?>/组织架构" target="_blank">组织架构</a></li>
@@ -75,7 +75,7 @@
     <li><a href="<?php echo get_option('home'); ?>/职能部门" target="_blank">职能部门</a></li>
     </ul>
     </li>
-    <li class="mainlevel" id="mainlevel_03"><a href="#" target="_blank">学生组织</a>
+    <li class="mainlevel" id="mainlevel_03"><a href="<?php echo get_option('home'); ?>/思想教育中心" target="_blank">学生组织</a>
     <ul id="sub_03">
     <li><a href="#" target="_blank">学生会</a></li>
     <li><a href="#" target="_blank">研究生会</a></li>

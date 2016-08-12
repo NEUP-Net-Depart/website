@@ -129,8 +129,8 @@ Template Name: 学生组织
                 </tr>
                 
                 <tr>
-                    <td>
-                        <p class="content"><?php the_content();?></p>
+                    <td class="content">
+                        <p><?php the_content();?></p>
                     </td>
                 </tr>
                 
