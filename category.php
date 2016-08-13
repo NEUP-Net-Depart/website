@@ -14,6 +14,131 @@
                         <table border="0" cellspacing="0" cellpadding="0">
                             <tr>
                                 <td>
+                                    <div class="left_title_div" style="text-align: center;height: 45px">
+                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/category/先锋头条/" class="left_title <?php if (is_category('先锋头条'))
+                                            echo "active";?>" style="margin-left: 10px">先锋头条</a></p>
+                                        <div class="left_title_underline <?php if (is_category('先锋头条'))
+                                            echo " active";?>"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <td width="280" height="1"
+                                            style="background-image: url(<?php bloginfo('template_url'); ?>/images/listpageimages/line1.png);background-repeat: no-repeat;background-size: 280px 1px;"></td>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <div class="left_title_div" style="text-align: center;height: 45px">
+                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/category/通知公告/" class="left_title <?php if (is_category('通知公告'))
+                                            echo "active";?>" style="margin-left: 10px">通知公告</a></p>
+                                        <div class="left_title_underline <?php if (is_category('通知公告'))
+                                            echo " active";?>"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <td width="280" height="1"
+                                            style="background-image: url(<?php bloginfo('template_url'); ?>/images/listpageimages/line1.png);background-repeat: no-repeat;background-size: 280px 1px;"></td>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <div class="left_title_div" style="text-align: center;height: 45px">
+                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/category/学院团训/" class="left_title <?php if (is_category('学院团训'))
+                                            echo "active";?>" style="margin-left: 10px">学院团训</a></p>
+                                        <div class="left_title_underline <?php if (is_category('学院团训'))
+                                            echo " active";?>"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <td width="280" height="1"
+                                            style="background-image: url(<?php bloginfo('template_url'); ?>/images/listpageimages/line1.png);background-repeat: no-repeat;background-size: 280px 1px;"></td>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <div class="left_title_div" style="text-align: center;height: 45px">
+                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/category/活力支部/" class="left_title <?php if (is_category('活力支部'))
+                                            echo "active";?>" style="margin-left: 10px">活力支部</a></p>
+                                        <div class="left_title_underline <?php if (is_category('活力支部'))
+                                            echo " active";?>"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <td width="280" height="1"
+                                            style="background-image: url(<?php bloginfo('template_url'); ?>/images/listpageimages/line1.png);background-repeat: no-repeat;background-size: 280px 1px;"></td>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <div class="left_title_div" style="text-align: center;height: 45px">
+                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/category/缤纷社团/" class="left_title <?php if (is_category('缤纷社团'))
+                                            echo "active";?>" style="margin-left: 10px">缤纷社团</a></p>
+                                        <div class="left_title_underline <?php if (is_category('缤纷社团'))
+                                            echo " active";?>"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <td width="280" height="1"
+                                            style="background-image: url(<?php bloginfo('template_url'); ?>/images/listpageimages/line1.png);background-repeat: no-repeat;background-size: 280px 1px;"></td>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
                                     <div class="left_title_div active" style="text-align: center;height: 45px">
                                         <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/category/思想引领行动" class="left_title <?php if (is_category('思想引领行动'))
                                             echo "active";?>" style="margin-left: 10px">思想引领行动</a></p>

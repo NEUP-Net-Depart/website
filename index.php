@@ -271,7 +271,7 @@
 
                             <tr >
                             <td style="margin: 0;padding: 0"><ul ><li class="sub-title3" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg')">学院团训</li></ul></td>
-                            <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                            <td><a href="<?php echo get_option('home'); ?>/category/学院团训" class="grey12-more">更多&gt;&gt;</a></td>
                             </tr>
 
                         </table>
@@ -303,14 +303,14 @@
                               <table width="325" >
                                   <tr style="border: 0">
                                   <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');">思想引领行动</li></ul></td>
-                                  <td ><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                                  <td ><a href="<?php echo get_option('home'); ?>/category/思想引领行动" class="grey12-more">更多&gt;&gt;</a></td>
                                   </tr>
                               </table>
                           </td>
                           <td >
                               <table width="320" style="outline: 0;border: 0">
                                   <td><ul ><li class="sub-title2" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');">素质拓展行动</li></ul></td>
-                                  <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                                  <td><a href="<?php echo get_option('home'); ?>/category/素质拓展行动" class="grey12-more">更多&gt;&gt;</a></td>
                               </table>
                           </td>
                       </tr>
@@ -350,14 +350,14 @@
                               <table width="325" >
                                   <tr style="border: 0">
                                       <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">权益服务行动</li></ul></td>
-                                      <td ><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                                      <td ><a href="<?php echo get_option('home'); ?>/category/权益服务行动" class="grey12-more">更多&gt;&gt;</a></td>
                                   </tr>
                               </table>
                           </td>
                           <td >
                               <table width="320" style="outline: 0;border: 0">
                                   <td><ul ><li class="sub-title2" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">组织提升行动</li></ul></td>
-                                  <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                                  <td><a href="<?php echo get_option('home'); ?>/category/组织提升行动" class="grey12-more">更多&gt;&gt;</a></td>
                               </table>
                           </td>
                       </tr>
@@ -444,7 +444,7 @@
 
                     <table width="317">
                         <td style="margin: 0;padding: 0"><ul ><li class="sub-title4" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">通知公告</li></ul></td>
-                        <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                        <td><a href="<?php echo get_option('home'); ?>/category/通知公告" class="grey12-more">更多&gt;&gt;</a></td>
                     </table>
 
                 </td>
@@ -551,7 +551,7 @@
 
                 <table width="317">
                     <td><ul><li class="sub-title4" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg')">活动专题</li></ul></td>
-                    <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                    <td><a href="<?php echo get_option('home'); ?>/category/活动专题" class="grey12-more">更多&gt;&gt;</a></td>
                 </table>
 
             </td>
@@ -578,7 +578,7 @@
 
             <table width="317">
                 <td><ul ><li class="sub-title4" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg')">友情链接</li></ul></td>
-                <td><a href="more.php" class="grey12-more">更多&gt;&gt;</a></td>
+                <td><a href="#" class="grey12-more">更多&gt;&gt;</a></td>
             </table>
 
         </td>
