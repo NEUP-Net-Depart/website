@@ -37,6 +37,14 @@
 <?php if(is_page()):?>
 <link href="<?php bloginfo('template_url'); ?>/css/contentpagestyle1.css" rel="stylesheet"/>
 <?php endif;?>
+<?php if(is_search()):?>
+<link href="<?php bloginfo('template_url'); ?>/css/search.css" rel="stylesheet"/>
+<link href="<?php bloginfo('template_url'); ?>/css/listpagestyle.css" rel="stylesheet"/>
+<?php endif;?>
+<?php if(is_category()):?>
+<link href="<?php bloginfo('template_url'); ?>/css/listpagestyle.css" rel="stylesheet"/>
+<?php endif;?>
+
 <!-- 效果开始 -->
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/tabqh.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slideshow.js"></script>
@@ -118,8 +126,3 @@
 </ul>
 </div>
 <!-- 导航条结束 --> 
-<table width="1280" height="12" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr>
-    <td height="10"></td>
-  </tr>
-</table>
