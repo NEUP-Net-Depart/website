@@ -17,9 +17,10 @@
                             <tr>
                                 <td>
                                     <div class="left_title_div active" style="text-align: center;height: 45px">
-                                        <p class="left_title_arrow">&gt;<a href="#" class="left_title <?php if (is_category('sixiang')) 
+                                        <p class="left_title_arrow">&gt;<a href="http://localhost:8080/wordpress/category/思想引领行动" class="left_title <?php if (is_category('sixiang')) 
                                             echo "active";?>" style="margin-left: 10px">思想引领行动</a></p>
-                                        <div class="left_title_underline active"></div>
+                                        <div class="left_title_underline <?php if (is_category('sixiang')) 
+                                            echo " active";?>"></div>
                                     </div>
                                 </td>
                             </tr>
@@ -41,9 +42,10 @@
                             <tr>
                                 <td>
                                     <div class="left_title_div" style="text-align: center;height: 45px">
-                                        <p class="left_title_arrow">&gt;<a href="#" class="left_title <?php if (is_category('suzhi')) 
+                                        <p class="left_title_arrow">&gt;<a href="http://localhost:8080/wordpress/category/素质拓展行动/" class="left_title <?php if (is_category('suzhi')) 
                                             echo "active";?>" style="margin-left: 10px">素质拓展行动</a></p>
-                                        <div class="left_title_underline"></div>
+                                        <div class="left_title_underline<?php if (is_category('suzhi')) 
+                                            echo " active";?>"></div>
                                     </div>
                                 </td>
                             </tr>
@@ -65,9 +67,10 @@
                             <tr>
                                 <td>
                                     <div class="left_title_div" style="text-align: center;height: 45px">
-                                        <p class="left_title_arrow">&gt;<a href="#" class="left_title <?php if (is_category('quanyi')) 
+                                        <p class="left_title_arrow">&gt;<a href="http://localhost:8080/wordpress/category/权益服务行动/" class="left_title <?php if (is_category('quanyi')) 
                                             echo "active";?>" style="margin-left: 10px">权益服务行动</a></p>
-                                        <div class="left_title_underline"></div>
+                                        <div class="left_title_underline <?php if (is_category('quanyi')) 
+                                            echo " active";?>"></div>
                                     </div>
                                 </td>
                             </tr>
@@ -89,9 +92,10 @@
                             <tr>
                                 <td>
                                     <div class="left_title_div" style="text-align: center;height: 45px">
-                                        <p class="left_title_arrow">&gt;<a href="#" class="left_title <?php if (is_category('zuzhi')) 
+                                        <p class="left_title_arrow">&gt;<a href="http://localhost:8080/wordpress/category/组织提升行动/" class="left_title <?php if (is_category('zuzhi')) 
                                             echo "active";?>" style="margin-left: 10px">组织提升行动</a></p>
-                                        <div class="left_title_underline"></div>
+                                        <div class="left_title_underline <?php if (is_category('zuzhi')) 
+                                            echo " active";?>"></div>
                                     </div>
                                 </td>
                             </tr>
@@ -143,6 +147,7 @@
                     "&paged=" . $paged
                                         );
                 ?>
+                <?php custom_posts_per_page($post_list);?>
                 <tr>
                     <td>
                     <table  width="1000" border="0" cellspacing="0" cellpadding="0" style="padding-left:20px;padding-bottom: 15px">
@@ -180,10 +185,10 @@
                         </table>
                     </td>
                 </tr>
-                <?php wp_pagenavi(array($post_list));?>
                  
             </table>
         </td>
     </tr>
 </table>
+<?php wp_pagenavi(array($post_list));?>
 <?php get_footer()?>
