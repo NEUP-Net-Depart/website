@@ -105,3 +105,32 @@
     padding-left: 1px;
     font-size: 14px;
 }
+.wp-pagenavi {
+    text-align: right;
+    padding: 15px;
+    float: right;
+    padding-right: 30px;
+}
+.wp-pagenavi span {
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 10px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: #003399;
+    display: inline-block;
+    border: 1px solid #003399;
+}
+.wp-pagenavi a {
+    margin-left: 10px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #003399;
+    color: #003399;
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+}

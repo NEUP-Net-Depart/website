@@ -251,7 +251,7 @@
                 <?php 
                 $order_by = 'date';
                 $order = 'DESC';
-                $posts_per_page = 15;
+                $posts_per_page = 10;
                 global $post;
                 $post_title = $post->post_title;
                 if( $show_content || $paged == 1  ) $post_content = apply_filters('the_content', $post->post_content);
@@ -304,9 +304,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <table border="0" cellspacing="0" cellpadding="0" style="padding:15px;float: right;padding-right: 30px">
-                            <?php wp_pagenavi(array($post_list));?>
-                        </table>
+                        <?php wp_pagenavi(array($post_list));?>
                     </td>
                 </tr>
             </table>
