@@ -58,7 +58,14 @@ a:hover { text-decoration: underline; color: #a50001; }
 
 /* 选项卡开始 */
 .hiddendiv{display: none;}
-.tabqh{height:270px;margin:0px auto;position:relative;width:317px;}
+
+.tabqh {
+	height: 270px;
+	margin: 0px auto;
+	position: relative;
+	width: 317px;
+	margin-top: -4px;
+}
 .tabqh .menu{height:30px;width:317px;}
 .tabqh .menu ul{margin:0px;padding:0px;height:26px;list-style:none;text-align:center;}
 .tabqh .menu li{display:block;float:left;height:25px;line-height:25px;margin-left:0px;margin-top:5px;width:100px;}
