@@ -108,7 +108,7 @@
     </ul>
     </li>
      <li class="jquery_out" style="padding-left:25px;">
-         <form method="get" id="searchform" action="#">
+         <form method="get" id="searchform" action="<?php echo get_option('home'); ?>">
              <table class="search" cellpadding="0" cellspacing="0" border="0">
                 <tr>
                     <td>

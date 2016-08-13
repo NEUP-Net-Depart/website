@@ -1,10 +1,10 @@
 <?php get_header()?>
-<?php $search_query =& new WP_Query("s=$s & showposts=-1");?>
+<?php $search_query = new WP_Query("s=$s & showposts=-1");?>
 <?php custom_posts_per_page($search_query);?>
 <?php $num=1;?>
 <div class="searchone">
 	<div class="line1">
-		<div class="line1a"><a class="ca" href="#" target="_blank">首页</a>  &gt;&gt; 站内搜索-搜索结果</div>
+		<div class="line1a"><a class="ca" href="<?php echo get_option('home'); ?>/" target="_blank">首页</a>  &gt;&gt; 站内搜索-搜索结果</div>
 	</div>
 	<div class="line2"><hr style="border:1px dashed black;"/></div>
 	<div class="line3">
@@ -29,7 +29,7 @@
 				<p style="padding-left:3%;font-size:12px;line-height:140%"><?php echo get_the_excerpt();?></p>
 			</div>
 			<div class="right">
-				<div class="right1"><p style="padding-left:3%;font-weight:lighter;font-size:12px;color:#9D9D9D;">来源/分类:<span style="float: right;font-size:12px;"><?php the_author()?>-<?php single_cat_title();?></span></p></div>
+				<div class="right1"><p style="padding-left:3%;font-weight:lighter;font-size:12px;color:#9D9D9D;">来源/分类:<span style="float: right;font-size:12px;"><?php the_author()?>/<?php $category = get_the_category(); echo $category[0]->cat_name;?></span></p></div>
 				<div class="right2"><p style="padding-left:3%;font-weight:lighter;font-size:12px;color:#9D9D9D;">上传时间:<span style="float: right;font-size:12px;"><?php the_date() ?><?php the_time() ?></span></p></div>
 				<?php $num=$num+1?>
 			</div>
@@ -38,6 +38,12 @@
     <?php endif; ?>
 	</div>
 	<div class="line4"><hr style="border:1px dashed black;"/></div>
-        <?php wp_pagenavi(array($search_query));?>
+	<div class="line5">
+		<div class="line5a">
+			<div class="digg">
+				<?php wp_pagenavi(array($search_query));?>
+			</div>
+		</div>
+	</div>
 </div>
 <?php get_footer()?>

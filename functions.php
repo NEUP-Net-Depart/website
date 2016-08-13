@@ -30,15 +30,16 @@
         return $first_img;
     }
     function custom_posts_per_page($query){
-    if(is_home()){
+    /*if(is_home()){
     $query->set('posts_per_page',8);
-    }
+    }*/
     if(is_search()){
         $query->set('posts_per_page',4);
     }
+    /*
     if(is_archive()){
         $query->set('posts_per_page',3);
-}
-}
+    }*/
+    }
     
 add_action('pre_get_posts','custom_posts_per_page');
