@@ -126,3 +126,8 @@
 </ul>
 </div>
 <!-- 导航条结束 --> 
+<table width="1280" height="12" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="10"></td>
+  </tr>
+</table>
