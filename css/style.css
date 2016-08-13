@@ -87,7 +87,11 @@ a:hover { text-decoration: underline; color: #a50001; }
 .tabqh2 .menu li{display:block;float:left;height:25px;line-height:25px;margin-left:30px;font-family:"Microsoft YaHei";margin-top:5px;width:100px;}
 .tabqh2 .menu li a{color:#000000;font:16px/normal "Microsoft YaHei"; font-weight:bold;text-decoration:none;display:block; }
 .tabqh2 .menu li a.tabactive{color:#fff;font:16px/normal "Microsoft YaHei"; font-weight:bold;height:25px;background-color:#DE0023}
-.tabqh2 .tabdiv ul{list-style:none;padding-top:10px;}
+
+.tabqh2 .tabdiv ul {
+	list-style: none;
+	padding-top: 10px;
+}
 .tabqh2 .tabdiv ul li{height:30px;line-height:24px;overflow:hidden; no-repeat:left center;text-indent:0px;}
 .tabqh2 .tabdiv ul li a{text-decoration:none;color:#000000;}
 .tabqh2 .tabdiv ul li a:hover{color:#DE0023;}

@@ -135,7 +135,7 @@
   </tr>
 </table>
 <!-- 选项卡1图片结束 -->
-<table width="300" border="0" cellspacing="0" cellpadding="0"  background="<?php bloginfo('template_url'); ?>/images/dot2.jpg"  height="8">
+<table width="300" border="0" cellspacing="0" cellpadding="0"  background="<?php bloginfo('template_url'); ?>/images/dot2.jpg"  height="8" style="margin-top: -15px;">
   <tr>
     <td></td>
   </tr>
@@ -228,7 +228,7 @@
       while($query->have_posts()): $query->the_post();
     ?>
   <tr>
-    <td width="320" height="60" align="center"><a href="<?php the_permalink();?>" class="blue20"><?php echo mb_strimwidth(get_the_title(), 0, 58,"...","UTF-8"); ?></a></td>
+    <td width="320" height="60" align="left"><a href="<?php the_permalink();?>" class="blue20"><?php echo mb_strimwidth(get_the_title(), 0, 58,"...","UTF-8"); ?></a></td>
   </tr>
   <tr>
     <td style="padding:5px;"><font class="grey12-more"><?php echo get_the_excerpt();?><a href="<?php the_permalink() ?>" class="grey10bg">更多>></a></td>
@@ -475,7 +475,7 @@
 			<li><a href="javascript:void(0);" onmouseover="showThis(2,'divNumbera','tabContenta','tablinka');" id="tablinka2">投稿排行</a></li>
 		</ul>
 	</div>
-<table width="317" border="0" cellspacing="0" cellpadding="0" style="padding-top:3px; ">
+<table width="317" border="0" cellspacing="0" cellpadding="0" style="padding-top:5px; ">
   <tr>
     <td height="2" bgcolor="#C74E00"></td>
   </tr>
