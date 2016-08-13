@@ -15,7 +15,7 @@
                             <tr>
                                 <td>
                                     <div class="maintitle" style="text-align: left;height: 45px">
-                                        <p class="left_title_arrow">&gt;<a href="#" class="left_title active" style="margin-left: 10px">东大共青团</a></p>
+                                        <p class="left_title_arrow">&or;<a href="#" class="left_title" style="margin-left: 4px">东大共青团</a></p>
                                     </div>
                                 </td>
                             </tr>

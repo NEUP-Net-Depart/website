@@ -19,29 +19,7 @@ Template Name: 学生组织
                             <tr>
                                 <td>
                                     <div class="maintitle" style="text-align: left;height: 45px">
-                                        <p class="left_title_arrow">&gt;<a href="#" class="left_title active" style="margin-left: 10px">学生组织</a></p>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <table border="0" cellspacing="0" cellpadding="0">
-                                        <td width="280" height="1"
-                                            style="background-image: url(<?php bloginfo('template_url'); ?>/images/listpageimages/line1.png);background-repeat: no-repeat;background-size: 280px 1px;"></td>
-                                    </table>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <table border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td>
-                                    <div class="left_title_div" style="text-align: left;height: 45px">
-                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/先锋网络中心" class="left_title <?php if ($title == "先锋网络中心"): echo "active"; endif;?>" style="margin-left: 10px">先锋网络中心</a></p>
+                                        <p class="left_title_arrow">&or;<a href="#" class="left_title" style="margin-left: 4px">学生组织</a></p>
                                     </div>
                                 </td>
                             </tr>
@@ -91,6 +69,28 @@ Template Name: 学生组织
                             </tr>
                                 <tr>
                                     <td>
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <td width="280" height="1"
+                                            style="background-image: url(<?php bloginfo('template_url'); ?>/images/listpageimages/line1.png);background-repeat: no-repeat;background-size: 280px 1px;"></td>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <div class="left_title_div" style="text-align: left;height: 45px">
+                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/先锋网络中心" class="left_title <?php if ($title == "先锋网络中心"): echo "active"; endif;?>" style="margin-left: 10px">先锋网络中心</a></p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
                                     <table border="0" cellspacing="0" cellpadding="0">
                                         <td width="280" height="1"
                                             style="background-image: url(<?php bloginfo('template_url'); ?>/images/listpageimages/line1.png);background-repeat: no-repeat;background-size: 280px 1px;"></td>
