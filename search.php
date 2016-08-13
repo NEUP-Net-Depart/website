@@ -1,6 +1,6 @@
 <?php get_header()?>
 <?php $search_query =& new WP_Query("s=$s & showposts=-1");?>
-<?php custom_posts_per_page($search_query)?>
+<?php custom_posts_per_page($search_query);?>
 <?php $num=1;?>
 <div class="searchone">
 	<div class="line1">
@@ -29,7 +29,7 @@
 				<p style="padding-left:3%;font-size:12px;line-height:140%"><?php echo get_the_excerpt();?></p>
 			</div>
 			<div class="right">
-				<div class="right1"><p style="padding-left:3%;font-weight:lighter;font-size:12px;color:#9D9D9D;">来源/分类:<span style="float: right;font-size:12px;"><?php echo the_category();?><?php the_author()?></span></p></div>
+				<div class="right1"><p style="padding-left:3%;font-weight:lighter;font-size:12px;color:#9D9D9D;">来源/分类:<span style="float: right;font-size:12px;"><?php the_author()?>-<?php single_cat_title();?></span></p></div>
 				<div class="right2"><p style="padding-left:3%;font-weight:lighter;font-size:12px;color:#9D9D9D;">上传时间:<span style="float: right;font-size:12px;"><?php the_date() ?><?php the_time() ?></span></p></div>
 				<?php $num=$num+1?>
 			</div>
