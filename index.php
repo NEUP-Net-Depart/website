@@ -176,7 +176,7 @@
   </tr>
 </table>
 <!-- 选项卡2图片结束 -->
-<table width="300" border="0" cellspacing="0" cellpadding="0"  background="<?php bloginfo('template_url'); ?>/images/dot2.jpg"  height="8">
+<table width="300" border="0" cellspacing="0" cellpadding="0"  background="<?php bloginfo('template_url'); ?>/images/dot2.jpg"  height="8" style="margin-top: -15px;">
 <tr>
 <td></td>
 </tr>
