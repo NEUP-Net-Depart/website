@@ -534,7 +534,7 @@
     <td height="32"><table width="317" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td width="35"><div align="center" class="black12"><?php echo $i; ?></div></td>
-        <td width="233" class="black14"><?php echo $ranklist["academy$i"]; ?></td>
+        <td width="233" class="weiruanblack14"><?php echo $ranklist["academy$i"]; ?></td>
         <td width="49" class="black12-1">[<?php echo $ranklist["num$i"]; ?>篇]</td>
       </tr>
     </table></td>
