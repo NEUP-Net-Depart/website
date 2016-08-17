@@ -125,13 +125,13 @@
 		<ul><table width="300" height="176" border="0" cellpadding="0" cellspacing="0">
   <tr>
 <!-- 选项卡1图片开始 -->
-   <td height="119" align="left"><a href="<?php echo $images_huoli[0]['url']; ?>"><img src="<?php echo $images_huoli[0]['image']; ?>" width="140" height="112" /></a></td>
-   <td align="right"><a href="<?php echo $images_huoli[1]['url']; ?>"><img src="<?php echo $images_huoli[1]['image']; ?>" width="140" height="112" /></a></td>
+   <td height="119" align="left"><a href="<?php echo $images_huoli[0]['url']; ?>" target="_blank"><img src="<?php echo $images_huoli[0]['image']; ?>" width="140" height="112" /></a></td>
+   <td align="right"><a href="<?php echo $images_huoli[1]['url']; ?>" target="_blank"><img src="<?php echo $images_huoli[1]['image']; ?>" width="140" height="112" /></a></td>
  </tr>
   <tr>
-    <td height="53"><a href="<?php echo $images_huoli[0]['url']; ?>" class="black12"><?php echo mb_strimwidth($images_huoli[0]['title'], 0, 22,"","UTF-8");?></a></td>
+    <td height="53"><a href="<?php echo $images_huoli[0]['url']; ?>" class="black12" target="_blank"><?php echo mb_strimwidth($images_huoli[0]['title'], 0, 22,"","UTF-8");?></a></td>
 
-    <td style="padding-left:10px;"><a href="<?php echo $images_huoli[1]['url']; ?>" class="black12"><?php echo mb_strimwidth($images_huoli[1]['title'], 0, 22,"","UTF-8"); ?></a></td>
+    <td style="padding-left:10px;"><a href="<?php echo $images_huoli[1]['url']; ?>" class="black12" target="_blank"><?php echo mb_strimwidth($images_huoli[1]['title'], 0, 22,"","UTF-8"); ?></a></td>
   </tr>
 </table>
 <!-- 选项卡1图片结束 -->
@@ -150,7 +150,7 @@
     $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
     while($query->have_posts()): $query->the_post();
   ?>
-  <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+  <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
   <?php endwhile; wp_reset_query(); ?>
 </ul>
 <!-- 选项卡1文字结束 -->
@@ -166,13 +166,13 @@
 		<ul><table width="300" height="176" border="0" cellpadding="0" cellspacing="0">
   <tr>
 <!-- 选项卡2图片开始 -->
-   <td height="119" align="left"><a href="<?php echo $images_shetuan[0]['url']; ?>"><img src="<?php echo $images_shetuan[0]['image']; ?>" width="140" height="112" /></a></td>
-   <td align="right"><a href="<?php echo $images_shetuan[1]['url']; ?>"><img src="<?php echo $images_shetuan[1]['image']; ?>" width="140" height="112" /></a></td>
+   <td height="119" align="left"><a href="<?php echo $images_shetuan[0]['url']; ?>" target="_blank"><img src="<?php echo $images_shetuan[0]['image']; ?>" width="140" height="112" /></a></td>
+   <td align="right"><a href="<?php echo $images_shetuan[1]['url']; ?>" target="_blank"><img src="<?php echo $images_shetuan[1]['image']; ?>" width="140" height="112" /></a></td>
  </tr>
   <tr>
-    <td height="53"><a href="<?php echo $images_shetuan[0]['url']; ?>" class="black12"><?php echo mb_strimwidth($images_shetuan[0]['title'], 0, 22,"","UTF-8"); ?></a></td>
+    <td height="53"><a href="<?php echo $images_shetuan[0]['url']; ?>" class="black12" target="_blank"><?php echo mb_strimwidth($images_shetuan[0]['title'], 0, 22,"","UTF-8"); ?></a></td>
 
-    <td style="padding-left:10px;"><a href="<?php echo $images_shetuan[1]['url']; ?>" class="black12"><?php echo mb_strimwidth($images_shetuan[1]['title'], 0, 22,"","UTF-8"); ?></a></td>
+    <td style="padding-left:10px;"><a href="<?php echo $images_shetuan[1]['url']; ?>" class="black12" target="_blank"><?php echo mb_strimwidth($images_shetuan[1]['title'], 0, 22,"","UTF-8"); ?></a></td>
   </tr>
 </table>
 <!-- 选项卡2图片结束 -->
@@ -191,7 +191,7 @@
     $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
     while($query->have_posts()): $query->the_post();
   ?>
-  <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+  <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
   <?php endwhile; wp_reset_query(); ?>
 </ul>
 <!-- 选项卡2文字结束 -->
@@ -228,10 +228,10 @@
       while($query->have_posts()): $query->the_post();
     ?>
   <tr>
-    <td width="320" height="60" align="left"><a href="<?php the_permalink();?>" class="blue20"><?php echo mb_strimwidth(get_the_title(), 0, 58,"...","UTF-8"); ?></a></td>
+    <td width="320" height="60" align="left"><a href="<?php the_permalink();?>" class="blue20" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 58,"...","UTF-8"); ?></a></td>
   </tr>
   <tr>
-    <td style="padding:5px;"><font class="grey12-more"><?php echo get_the_excerpt();?><a href="<?php the_permalink() ?>" class="grey10bg">更多>></a></td>
+    <td style="padding:5px;"><font class="grey12-more"><?php echo get_the_excerpt();?><a href="<?php the_permalink() ?>" class="grey10bg" target="_blank">更多>></a></td>
   </tr>
 <?php endwhile; }else {?>
   <tr>
@@ -253,7 +253,7 @@
         $query = new WP_Query("posts_per_page=4&category_name=".$cat_name);
         while($query->have_posts()): $query->the_post();
       ?>
-      <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+      <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
       <?php endwhile; wp_reset_query(); ?>
     </ul>
 		<!-- 头题文字循环结束 -->
@@ -271,7 +271,7 @@
 
                             <tr >
                             <td style="margin: 0;padding: 0"><ul ><li class="sub-title3" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg')">学院团训</li></ul></td>
-                            <td><a href="<?php echo get_option('home'); ?>/category/学院团训" class="grey12-more">更多&gt;&gt;</a></td>
+                            <td><a href="<?php echo get_option('home'); ?>/category/学院团训" class="grey12-more" target="_blank">更多&gt;&gt;</a></td>
                             </tr>
 
                         </table>
@@ -285,7 +285,7 @@
               $query = new WP_Query("posts_per_page=7&category_name=".$cat_name);
               while($query->have_posts()): $query->the_post();
             ?>
-              <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+              <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
             <?php endwhile; wp_reset_query(); ?>
             </ul>
           </tr>
@@ -303,14 +303,14 @@
                               <table width="325" >
                                   <tr style="border: 0">
                                   <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');">思想引领行动</li></ul></td>
-                                  <td ><a href="<?php echo get_option('home'); ?>/category/思想引领行动" class="grey12-more">更多&gt;&gt;</a></td>
+                                  <td ><a href="<?php echo get_option('home'); ?>/category/思想引领行动" class="grey12-more" target="_blank">更多&gt;&gt;</a></td>
                                   </tr>
                               </table>
                           </td>
                           <td >
                               <table width="320" style="outline: 0;border: 0">
                                   <td><ul ><li class="sub-title2" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');">素质拓展行动</li></ul></td>
-                                  <td><a href="<?php echo get_option('home'); ?>/category/素质拓展行动" class="grey12-more">更多&gt;&gt;</a></td>
+                                  <td><a href="<?php echo get_option('home'); ?>/category/素质拓展行动" class="grey12-more" target="_blank">更多&gt;&gt;</a></td>
                               </table>
                           </td>
                       </tr>
@@ -325,7 +325,7 @@
               $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
               while($query->have_posts()): $query->the_post();
             ?>
-          <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+          <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
 	         <?php endwhile; wp_reset_query(); ?>
 		  </ul>		  
 		  </td>
@@ -336,7 +336,7 @@
               $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
               while($query->have_posts()): $query->the_post();
             ?>
-              <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10" style="padding-right:9px; "><?php the_time("m-d"); ?></font></li>
+              <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10" style="padding-right:9px; "><?php the_time("m-d"); ?></font></li>
               <?php endwhile; wp_reset_query(); ?>
             </ul></td>
         </tr>
@@ -350,14 +350,14 @@
                               <table width="325" >
                                   <tr style="border: 0">
                                       <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">权益服务行动</li></ul></td>
-                                      <td ><a href="<?php echo get_option('home'); ?>/category/权益服务行动" class="grey12-more">更多&gt;&gt;</a></td>
+                                      <td ><a href="<?php echo get_option('home'); ?>/category/权益服务行动" class="grey12-more" target="_blank">更多&gt;&gt;</a></td>
                                   </tr>
                               </table>
                           </td>
                           <td >
                               <table width="320" style="outline: 0;border: 0">
                                   <td><ul ><li class="sub-title2" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">组织提升行动</li></ul></td>
-                                  <td><a href="<?php echo get_option('home'); ?>/category/组织提升行动" class="grey12-more">更多&gt;&gt;</a></td>
+                                  <td><a href="<?php echo get_option('home'); ?>/category/组织提升行动" class="grey12-more" target="_blank">更多&gt;&gt;</a></td>
                               </table>
                           </td>
                       </tr>
@@ -373,7 +373,7 @@
                   $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
                   while($query->have_posts()): $query->the_post();
                 ?>
-                <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+                <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
                 <?php endwhile; wp_reset_query(); ?>
             </ul></td>
           <td width="325" style="padding-left:10px; ">
@@ -384,7 +384,7 @@
                 $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
                 while($query->have_posts()): $query->the_post();
               ?>
-                <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10" style="padding-right:9px; "><?php the_time("m-d"); ?></font></li>
+                <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10" style="padding-right:9px; "><?php the_time("m-d"); ?></font></li>
               <?php endwhile; wp_reset_query(); ?>
           </ul></td>
         </tr>
@@ -444,7 +444,7 @@
 
                     <table width="317">
                         <td style="margin: 0;padding: 0"><ul ><li class="sub-title4" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">通知公告</li></ul></td>
-                        <td><a href="<?php echo get_option('home'); ?>/category/通知公告" class="grey12-more">更多&gt;&gt;</a></td>
+                        <td><a href="<?php echo get_option('home'); ?>/category/通知公告" class="grey12-more" target="_blank">更多&gt;&gt;</a></td>
                     </table>
 
                 </td>
@@ -459,7 +459,7 @@
                 $query = new WP_Query("posts_per_page=7&category_name=".$cat_name);
                 while($query->have_posts()): $query->the_post();
               ?>
-		        <li class="li"><a href="<?php the_permalink(); ?>" class="black14"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+		        <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
           
           <?php endwhile; wp_reset_query(); ?>
 		  </ul>
@@ -489,7 +489,7 @@
           <font class="black14"><strong><?php if(substr($time1, 8, 2) < 10) echo substr($time1, 9, 1); else echo substr($time1, 8, 2); ?></strong></font></td>
       </tr>
     </table></td>
-    <td><div align="right"><a href="#" class="pink12"><?php echo($title1)?><br />
+    <td><div align="right"><a href="<?php echo $link1; ?>" class="pink12" target="_blank"><?php echo($title1)?><br />
 <font class="black12-1">时间:<?php echo str_replace("T"," ", "$time1") ?><br>
 地点:<?php echo($place1)?></font></a></div></td>
   </tr>
@@ -506,7 +506,7 @@
         </td>
       </tr>
     </table></td>
-    <td><div align="right"><a href="#" class="pink12"><?php echo($title2)?><br />
+    <td><div align="right"><a href="<?php echo $link2; ?>" class="pink12" target="_blank"><?php echo($title2)?><br />
               <font class="black12-1">时间:<?php echo str_replace("T"," ", "$time2") ?><br />
                 地点:<?php echo($place2)?></font></a></div></td>
   </tr>
@@ -519,7 +519,7 @@
               <font class="black14"><strong><?php if(substr($time3, 8, 2) < 10) echo substr($time3, 9, 1); else echo substr($time3, 8, 2); ?></strong></font></td>
       </tr>
     </table></td>
-    <td><div align="right"><a href="#" class="pink12"><?php echo($title3)?><br />
+    <td><div align="right"><a href="<?php echo $link3; ?>" class="pink12" target="_blank"><?php echo($title3)?><br />
               <font class="black12-1">时间:<?php echo str_replace("T"," ", "$time3") ?><br />
                 地点:<?php echo($place3)?></font></a></div></td>
   </tr>
