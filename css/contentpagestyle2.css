@@ -25,6 +25,7 @@
     font-family: 黑体;
     font-size: 24px;
     font-weight: bold;
+    display: inline-table;
 }
 .main_body{
     font-family: 微软雅黑;
