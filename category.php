@@ -61,8 +61,8 @@
                             <tr>
                                 <td>
                                     <div class="left_title_div" style="text-align: left;height: 45px">
-                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/category/学院团训/" class="left_title <?php if (is_category('学院团训'))
-                                            echo "active";?>" style="margin-left: 10px">学院团训</a></p>
+                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/category/学院团讯/" class="left_title <?php if (is_category('学院团讯'))
+                                            echo "active";?>" style="margin-left: 10px">学院团讯</a></p>
                                     </div>
                                 </td>
                             </tr>

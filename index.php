@@ -262,7 +262,7 @@
 </table>
 <!-- 头题区域结束 -->
 </td>
-<!-- 学院团训开始 -->
+<!-- 学院团讯开始 -->
 
         <td width="320" valign="top" ><table width="304" cellpadding="0" cellspacing="0">
                 <tr>
@@ -270,8 +270,8 @@
                         <table width="320" style="padding: 0;margin-bottom: 4px" cellpadding="0" cellspacing="0">
 
                             <tr >
-                            <td style="margin: 0;padding: 0"><ul ><li class="sub-title3" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg')">学院团训</li></ul></td>
-                            <td><a href="<?php echo get_option('home'); ?>/category/学院团训" class="grey12-more" target="_blank">更多&gt;&gt;</a></td>
+                            <td style="margin: 0;padding: 0"><ul ><li class="sub-title3" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg')">学院团讯</li></ul></td>
+                            <td><a href="<?php echo get_option('home'); ?>/category/学院团讯" class="grey12-more" target="_blank">更多&gt;&gt;</a></td>
                             </tr>
 
                         </table>
@@ -281,7 +281,7 @@
           <tr>
             <td style="padding:5px;padding-bottom: 2px"><ul>
             <?php
-              $cat_name = "学院团训";
+              $cat_name = "学院团讯";
               $query = new WP_Query("posts_per_page=7&category_name=".$cat_name);
               while($query->have_posts()): $query->the_post();
             ?>
@@ -292,7 +292,7 @@
         </table></td>
       </tr>
     </table>
-	<!-- 学院团训结束 -->
+	<!-- 学院团讯结束 -->
       <table width="643" border="0" align="center" cellpadding="0" cellspacing="0">
 
           <tr>
