@@ -85,16 +85,16 @@
     </li>
     <li class="mainlevel" id="mainlevel_03"><a href="<?php echo get_option('home'); ?>/思想教育中心" target="_blank">学生组织</a>
     <ul id="sub_03">
-    <li><a href="#" target="_blank">学生会</a></li>
-    <li><a href="#" target="_blank">研究生会</a></li>
-    <li><a href="#" target="_blank">社团联合会</a></li>
-    <li><a href="#" target="_blank">大学生志愿者协会</a></li>
+    <li><a href="<?php echo get_option('home'); ?>/学生会" target="_blank">学生会</a></li>
+    <li><a href="<?php echo get_option('home'); ?>/研究生会" target="_blank">研究生会</a></li>
+    <li><a href="<?php echo get_option('home'); ?>/社团联合会" target="_blank">社团联合会</a></li>
+    <li><a href="http://zyz.neupioneer.com/index.html" target="_blank">大学生志愿者协会</a></li>
     <li><a href="<?php echo get_option('home'); ?>/思想教育中心" target="_blank">思想教育中心</a></li>
     <li><a href="<?php echo get_option('home'); ?>/青年新媒体中心" target="_blank">青年新媒体中心</a></li>
     <li><a href="<?php echo get_option('home'); ?>/先锋网络中心" target="_blank">先锋网络中心</a></li>
-    <li><a href="#" target="_blank">社会实践中心</a></li>
-    <li><a href="#" target="_blank">素质拓展中心</a></li>
-    <li><a href="#" target="_blank">文化艺术中心</a></li>
+    <li><a href="<?php echo get_option('home'); ?>/社会实践中心" target="_blank">社会实践中心</a></li>
+    <li><a href="<?php echo get_option('home'); ?>/能力拓展中心" target="_blank">能力拓展中心</a></li>
+    <li><a href="<?php echo get_option('home'); ?>/文化艺术中心" target="_blank">文化艺术中心</a></li>
     </ul>
     </li>
     <li class="mainlevel" id="mainlevel_04"><a href="#" target="_blank">网上团支部</a></li>

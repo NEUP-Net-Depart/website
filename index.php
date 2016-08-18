@@ -599,7 +599,7 @@
     <td><li class="li"><a href="http://www.lngqt.com/index.html" class="greyfriend" target="_blank">辽宁共青团</a></li></td>
               </tr>
             <tr>
-    <td><li class="li"><a href="neu.ln.qnzs.youth.cn/wsgqt/index" class="greyfriend" target="_blank">青年之声</a></li></td>
+    <td><li class="li"><a href="http://neu.ln.qnzs.youth.cn/wsgqt/index" class="greyfriend" target="_blank">青年之声</a></li></td>
     <td><li class="li"><a href="http://xibu.youth.cn/" class="greyfriend" target="_blank">西部计划官网</a></li></td>
     <td><li class="li"><a href="http://www.zgzyz.org.cn/" class="greyfriend" target="_blank">中国青年志愿者网</a></li></td>
               </tr>
