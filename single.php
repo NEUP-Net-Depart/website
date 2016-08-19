@@ -45,7 +45,7 @@ $catid = $category[0]->term_id;
                             </tr>
                             <tr>
                                 <td>
-                                    <div align="center"><p class="origin">发表时间:<?php the_time('Y年n月j日') ?> 文章来源:<?php the_author(); ?> 浏览次数:<?php the_views(); ?></p></div>
+                                    <div align="center"><p class="origin">发表时间:<?php the_time('Y年n月j日') ?> 文章来源:<?php the_author(); ?> 浏览次数:<?php echo wp_statistics_pages('total', '', get_the_ID()); ?></p></div>
                                 </td>
                             </tr>
                             <tr>
