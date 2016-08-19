@@ -1,6 +1,6 @@
 <?php
     //excerpt截取一定长度的中文,长度上限需要去wp-includes内formatting.php内修改
-    function chinese_excerpt($text, $lenth=40) {
+    function chinese_excerpt($text, $lenth=50) {
     $text = mb_substr($text,0, $lenth);
      return $text;
     }

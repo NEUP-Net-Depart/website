@@ -249,9 +249,12 @@
 	<!-- 头题文字循环开始 -->
 	<ul>
       <?php
+        $i = 0;
         $cat_name = "先锋头条";
-        $query = new WP_Query("posts_per_page=4&category_name=".$cat_name);
+        $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
         while($query->have_posts()): $query->the_post();
+        $i++;
+        if($i == 1) continue;
       ?>
       <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
       <?php endwhile; wp_reset_query(); ?>
