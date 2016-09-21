@@ -52,6 +52,7 @@
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slide.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/mag.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/kxbdmarquee.js"></script>
 <!-- 效果结束 -->
 </head>
 <body>

@@ -129,9 +129,9 @@
    <td align="right"><a href="<?php echo $images_huoli[1]['url']; ?>" target="_blank"><img src="<?php echo $images_huoli[1]['image']; ?>" width="140" height="112" /></a></td>
  </tr>
   <tr>
-    <td height="53"><a href="<?php echo $images_huoli[0]['url']; ?>" class="black12" target="_blank"><?php echo mb_strimwidth($images_huoli[0]['title'], 0, 22,"","UTF-8");?></a></td>
+    <td height="53" width="140"style="padding-bottom: 2px"><a href="<?php echo $images_huoli[0]['url']; ?>" class="black12" target="_blank"><?php echo mb_strimwidth($images_huoli[0]['title'], 0, 45,"...","UTF-8");?></a></td>
 
-    <td style="padding-left:10px;"><a href="<?php echo $images_huoli[1]['url']; ?>" class="black12" target="_blank"><?php echo mb_strimwidth($images_huoli[1]['title'], 0, 22,"","UTF-8"); ?></a></td>
+    <td style="padding-left:20px;"><a href="<?php echo $images_huoli[1]['url']; ?>" class="black12" target="_blank"><?php echo mb_strimwidth($images_huoli[1]['title'], 0, 45,"...","UTF-8"); ?></a></td>
   </tr>
 </table>
 <!-- 选项卡1图片结束 -->
@@ -170,9 +170,9 @@
    <td align="right"><a href="<?php echo $images_shetuan[1]['url']; ?>" target="_blank"><img src="<?php echo $images_shetuan[1]['image']; ?>" width="140" height="112" /></a></td>
  </tr>
   <tr>
-    <td height="53"><a href="<?php echo $images_shetuan[0]['url']; ?>" class="black12" target="_blank"><?php echo mb_strimwidth($images_shetuan[0]['title'], 0, 22,"","UTF-8"); ?></a></td>
+    <td height="53" width="140" style="padding-bottom: 2px"><a href="<?php echo $images_shetuan[0]['url']; ?>" class="black12" target="_blank"><?php echo mb_strimwidth($images_shetuan[0]['title'], 0, 45,"...","UTF-8"); ?></a></td>
 
-    <td style="padding-left:10px;"><a href="<?php echo $images_shetuan[1]['url']; ?>" class="black12" target="_blank"><?php echo mb_strimwidth($images_shetuan[1]['title'], 0, 22,"","UTF-8"); ?></a></td>
+    <td style="padding-left:20px;"><a href="<?php echo $images_shetuan[1]['url']; ?>" class="black12" target="_blank"><?php echo mb_strimwidth($images_shetuan[1]['title'], 0, 45,"...","UTF-8"); ?></a></td>
   </tr>
 </table>
 <!-- 选项卡2图片结束 -->
@@ -228,17 +228,17 @@
       while($query->have_posts()): $query->the_post();
     ?>
   <tr>
-    <td width="320" height="60" align="left"><a href="<?php the_permalink();?>" class="blue20" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 58,"...","UTF-8"); ?></a></td>
+    <td width="320" height="30" align="left"><a href="<?php the_permalink();?>" class="blue20" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 35,"...","UTF-8"); ?></a></td>
   </tr>
   <tr>
-    <td style="padding:5px;"><font class="grey12-more"><?php echo get_the_excerpt();?><a href="<?php the_permalink() ?>" class="grey10bg" target="_blank">更多>></a></td>
+    <td style="padding:5px;height:60px;padding-bottom: 15px"><font class="grey12-more"><?php echo get_the_excerpt();?><a href="<?php the_permalink() ?>" class="grey10bg" target="_blank">更多>></a></td>
   </tr>
 <?php endwhile; }else {?>
   <tr>
-    <td width="315" height="24"><a href="#" class="blue20"></a></td>
+    <td width="315" height="30"><a href="#" class="blue20"></a></td>
   </tr>
   <tr>
-    <td style="padding:5px;"><font class="grey12-more"><a href="#" class="grey10bg">更多>></a></td>
+    <td style="padding:5px;height:60px;padding-bottom: 15px"><font class="grey12-more"><a href="#" class="grey10bg">更多>></a></td>
   </tr>
   <?php }wp_reset_query(); ?>
   <tr>
@@ -441,7 +441,7 @@
       </table></td>
   
   <!--右一表格开始-->
-    <td width="317" valign="top"><table width="317" border="0" cellspacing="0" cellpadding="0">
+    <td width="317" valign="top"><table width="317"  border="0" cellspacing="0" cellpadding="0">
             <tr>
                 <td width="317" height="26" >
 
@@ -454,9 +454,11 @@
             </tr>
             <tr><td width="100%"  height="2px" bgcolor="#c74e00"></td></tr>
       <tr>
-        <td style="padding:5px;padding-bottom: 12px;">
+        <td style="padding:5px;padding-bottom: 12px;height: 197px">
   <!--通知公告开始-->
-          <ul>
+            <div id="marquee1" style="position:relative; width:307px; height:210px; overflow:hidden;">
+            <ul>
+
               <?php
                 $cat_name = "通知公告";
                 $query = new WP_Query("posts_per_page=7&category_name=".$cat_name);
@@ -464,10 +466,21 @@
               ?>
 		        <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
           
-          <?php endwhile; wp_reset_query(); ?>
-		  </ul>
+            <?php endwhile; wp_reset_query(); ?>
+                <!--重复-->
+                <?php
+                $cat_name = "通知公告";
+                $query = new WP_Query("posts_per_page=7&category_name=".$cat_name);
+                while($query->have_posts()): $query->the_post();
+                    ?>
+                    <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 36,"...","UTF-8"); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+
+                <?php endwhile; wp_reset_query(); ?>
+
+		    </ul>
+            </div>
 <!--通知公告结束-->
-</td>
+            </td>
       </tr>
     </table>
 <!-- 活动预告开始 -->
@@ -613,4 +626,11 @@
   </tr>      <!--友情连接结束 -->
 
 </table>
+
+<script>
+    (function(){
+        $("#marquee1").kxbdMarquee({direction:"up",isEqual:false});
+
+    })();
+</script>
 <?php get_footer(); ?>

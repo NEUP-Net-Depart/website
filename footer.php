@@ -6,7 +6,7 @@
                 <img src="<?php bloginfo('template_url'); ?>/images/wechat-qrcode.png" style="margin: 20px;width: 60px">
             </td>
             <td width="1000" class="white12">
-                <p style="margin: 0">版权所有：共青团东北大学委员会　|&nbsp;&nbsp;&nbsp;地址：辽宁省沈阳市和平区文化路三巷11号&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;访问量:<?php wp_statistics_visit('total');?>次</p>
+                <p style="margin: 0">版权所有：共青团东北大学委员会　|&nbsp;&nbsp;&nbsp;地址：辽宁省沈阳市和平区文化路三巷11号&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;日访问量:<?php wp_statistics_visit('today');?>次&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;访问量:<?php wp_statistics_visit('total');?>次</p>
                 <p style="margin: 0">设计运维：校团委先锋网络中心　　|&nbsp;&nbsp;&nbsp;投稿邮箱：neuyouthnews@163.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;辽ICP备05001360号</p>
             </td>
 
