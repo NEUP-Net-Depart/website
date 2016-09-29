@@ -42,4 +42,11 @@
     }*/
     }
     
-add_action('pre_get_posts','custom_posts_per_page');
+    add_action('pre_get_posts','custom_posts_per_page');
+    if(current_user_can('contributer') && !current_user_can('upload_files'))
+        add_action('admin_init', 'allow_contributor_uploads');
+    function allow_contirbutor_uploads()
+    {
+        $contributor = get_role('contributor');
+        $contributor->add_cap('upload_files');
+    }
