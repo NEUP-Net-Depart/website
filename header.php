@@ -101,7 +101,7 @@
     <li class="mainlevel" id="mainlevel_04"><a href="http://tzb.neupioneer.com" target="_blank">网上团支部</a></li>
     <li class="mainlevel" id="mainlevel_05"><a href="http://neu.ln.qnzs.youth.cn/wsgqt/index" target="_blank">青年之声</a></li>
     <li class="mainlevel" id="mainlevel_06"><a href="http://bbs.neupioneer.com" target="_blank">先锋论坛</a></li>
-    <li class="mainlevel" id="mainlevel_07"><a href="#" target="_blank">文件下载</a></li>
+    <li class="mainlevel" id="mainlevel_07"><a href="<?php echo get_option('home'); ?>/category/文件下载" target="_blank">文件下载</a></li>
      <li class="jquery_out" style="padding-left:25px;">
          <form method="get" id="searchform" action="<?php echo get_option('home'); ?>">
              <table class="search" cellpadding="0" cellspacing="0" border="0">
