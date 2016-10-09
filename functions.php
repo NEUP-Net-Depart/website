@@ -1,6 +1,6 @@
 <?php
     //excerpt截取一定长度的中文,长度上限需要去wp-includes内formatting.php内修改
-    function chinese_excerpt($text, $lenth=50) {
+    function chinese_excerpt($text, $lenth=90) {
     $text = mb_substr($text,0, $lenth);
      return $text;
     }
@@ -10,7 +10,11 @@
     return "";
     }
     add_filter("excerpt_more", "new_excerpt_more");
-    
+
+function Bing_excerpt_length($length){
+    return 300;
+}
+add_filter( 'excerpt_length', 'Bing_excerpt_length' );
     function catch_that_image() {
         global $post, $posts;
         $first_img = '';
@@ -50,3 +54,4 @@
         $contributor = get_role('contributor');
         $contributor->add_cap('upload_files');
     }
+

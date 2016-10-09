@@ -62,10 +62,10 @@
     <td><a href="<?php echo get_option('home'); ?>" target="_self"><img src="<?php bloginfo('template_url'); ?>/images/top-left.jpg"  height="185" /></a></td>
       <td >
           <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%">
-              <param name="movie" value="<?php bloginfo('template_url'); ?>/images/top-right.swf" />
+              <param name="movie" value="<?php bloginfo('template_url'); ?>/images/top.swf" />
               <param name="quality" value="high" />
               <PARAM NAME="SCALE" VALUE="exactfit">
-              <embed src="<?php bloginfo('template_url'); ?>/images/top-right.swf" quality="high" type="application/x-shockwave-flash" width="865px" height="185px"  pluginspage="http://www.macromedia.com/go/getflashplayer" />
+              <embed src="<?php bloginfo('template_url'); ?>/images/top.swf" quality="high" type="application/x-shockwave-flash" width="865px" height="185px"  pluginspage="http://www.macromedia.com/go/getflashplayer" />
           </object>
       </td>
   </tr>

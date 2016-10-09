@@ -231,14 +231,14 @@
     <td width="320" height="30" align="left"><a href="<?php the_permalink();?>" class="blue20" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 35,"...","UTF-8"); ?></a></td>
   </tr>
   <tr>
-    <td style="padding:5px;height:60px;padding-bottom: 15px"><font class="grey12-more"><?php echo get_the_excerpt();?><a href="<?php the_permalink() ?>" class="grey10bg" target="_blank">更多>></a></td>
+    <td style="padding:0px;height:80px;padding-bottom: 0px"><font class="grey12-more"><?php echo mb_strimwidth(get_the_excerpt(), 0, 150,"...","UTF-8");?><a href="<?php the_permalink() ?>" class="grey10bg" target="_blank">更多>></a></td>
   </tr>
 <?php endwhile; }else {?>
   <tr>
     <td width="315" height="30"><a href="#" class="blue20"></a></td>
   </tr>
   <tr>
-    <td style="padding:5px;height:60px;padding-bottom: 15px"><font class="grey12-more"><a href="#" class="grey10bg">更多>></a></td>
+    <td style="padding:5px;height:90px;padding-bottom: 5px"><font class="grey12-more"><a href="#" class="grey10bg">更多>></a></td>
   </tr>
   <?php }wp_reset_query(); ?>
   <tr>
