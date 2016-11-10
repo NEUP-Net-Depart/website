@@ -399,7 +399,7 @@
                       <tr>
                           <td >
                               <table width="315">
-                                  <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">东大青年</li></ul></td>git
+                                  <td><ul ><li class="sub-title" style="list-style:square inside url('<?php bloginfo('template_url'); ?>/images/dot3.jpg');color:#D4000D;margin:auto;font-size:17px;font-weight:bolder">东大青年</li></ul></td>
                               </table>
                           </td>
                           <td >
