@@ -10,7 +10,33 @@
     return "";
     }
     add_filter("excerpt_more", "new_excerpt_more");
+function truncString($str, $length)
+{
+    $countLen=0;
+    for($i=0;$i<mb_strlen($str);$i++)
+    {
+        $countLen+=amb_strwidth(mb_substr($str,$i,1));
+        if($countLen>$length-3)
+            return mb_substr($str,0,$i)."...";
+    }
 
+    return $str;
+}
+function amb_strwidth($str_width)
+{
+    $count=0;
+    for($i=0;$i<mb_strlen($str_width);$i++)
+    {
+//if(mb_substr($str_width,$i,1)=="\xE2\x80\x9C"||mb_substr($str_width,$i,1)=='\xE2\x80\x9D')
+//如果遇到u2000-u206F内的字符则将计数器加2
+        if(preg_match("/[\x{2000}-\x{206F}]/u",mb_substr($str_width,$i,1)))
+            $count+=2;
+        else
+            $count+=mb_strwidth(mb_substr($str_width,$i,1));
+    }
+    return $count;
+}
+add_filter("mb_strimwidth", "truncString");
 function Bing_excerpt_length($length){
     return 300;
 }
