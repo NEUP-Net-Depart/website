@@ -482,6 +482,13 @@
             </td>
       </tr>
     </table>
+<!-- 第二课堂开始 -->
+        <div style = "width:317px;padding: 5px">
+            <a href="#" target="_blank">
+                <img src="<?php bloginfo('template_url'); ?>/images/classroom.jpg" width="317" /></a>
+        </div>
+<!-- 第二课堂结束 -->
+
 <!-- 活动预告开始 -->
 <div class="tabqh">
 	<div class="menu">

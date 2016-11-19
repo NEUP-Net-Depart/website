@@ -2,7 +2,7 @@
     ul li { list-style: none; }
 /*导航开始*/
 #nav {margin:0 auto 10px; width:1280px; display:block;background:#DE0023;}
-#nav .jquery_out {float:right;line-height:30px; background:#DE0023;height: 26px; width:268px; padding-top:11px;padding-bottom:11px;}
+#nav .jquery_out {float:right;line-height:30px; background:#DE0023;height: 26px; width:128px; padding-top:11px;padding-bottom:11px;}
 #nav .mainlevel {background:#DE0023; float:left; border-right:1px solid #fff; width:140px;font:18px/normal 微软雅黑; font-weight:bold;}
 #nav .mainlevel a {color:#fff; text-decoration:none; line-height:48px; display:block; width:140px; text-align:center; }
 #nav .mainlevel a:hover {color:#fff; text-decoration:none; background:#062723 url(../images/slide-panel_03.png) 0 0 repeat-x;}
@@ -265,7 +265,7 @@ float:right;
 .search {
 	padding: 0;
 	border: none;
-	width: 260px;
+	width: 130px;
 	height:26px;
 	background:#ffffff;
 	display:inline-block;
@@ -279,7 +279,7 @@ float:right;
 }
 .search input.box {
 	height: 26px;
-	width: 210px;
+	width: 80px;
 	margin: 0px;
 	padding: 0px;
 	background: #ffffff;
