@@ -14,7 +14,7 @@
   $link3 = $wpdb->get_var("SELECT `option_value` FROM  $wpdb->options  WHERE option_name = 'link3'");
   $pictures = get_option("neup_picture");
   $ranklist = get_option("neup_ranklist");
-  $monthes = [ "01" => "一月", "02" => "二月", "03" => "三月", "04" => "四月", "05" => "五月", "06" => "六月", 
+  $monthes = [ "01" => "一月", "02" => "二月", "03" => "三月", "04" => "四月", "05" => "五月", "06" => "六月",
                "07" => "七月", "08" => "八月", "09" => "九月", "10" => "十月", "11" => "十一月","12" => "十二月" ];
 ?>
 
@@ -83,7 +83,7 @@
     <td height="2" bgcolor="#C74E00"></td>
   </tr>
 
-<?php 
+<?php
     $cat_name = "活力支部";
     $query = new WP_Query("posts_per_page=10&category_name=".$cat_name);
     $i = 0;
@@ -154,7 +154,7 @@
   <?php endwhile; wp_reset_query(); ?>
 </ul>
 <!-- 选项卡1文字结束 -->
-			
+
 </td>  </tr>
 </table>
 
@@ -330,7 +330,7 @@
             ?>
           <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo truncString(get_the_title(), 37); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
 	         <?php endwhile; wp_reset_query(); ?>
-		  </ul>		  
+		  </ul>
 		  </td>
             <!-- 素质拓展行动 -->
 			<td width="325" style="padding-left:10px; "><ul>
@@ -344,7 +344,7 @@
             </ul></td>
         </tr>
       </table>
-      <table width="643" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top: 2px">
+      <table width="643" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top: 7px">
           <tr>
               <td height="38" colspan="2" style="padding:0"><!-- background="images/banner1.jpg"-->
                   <table width="640" border="0" cellspacing="0" cellpadding="0">
@@ -392,7 +392,7 @@
           </ul></td>
         </tr>
       </table>
-      <table width="643" border="0" align="center" cellpadding="0" cellspacing="0">
+      <table width="643" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:4px">
           <tr>
               <td height="38" colspan="2" style="padding:0"><!-- background="images/banner1.jpg"-->
                   <table width="640" border="0" cellspacing="0" cellpadding="0">
@@ -438,7 +438,7 @@
 		  <!-- 特别专题结束 -->
         </tr>
       </table></td>
-  
+
   <!--右一表格开始-->
     <td width="317" valign="top"><table width="317"  border="0" cellspacing="0" cellpadding="0">
             <tr>
@@ -464,7 +464,7 @@
                 while($query->have_posts()): $query->the_post();
               ?>
 		        <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo truncString(get_the_title(), 37); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
-          
+
             <?php endwhile; wp_reset_query(); ?>
                 <!--重复-->
                 <?php
@@ -585,9 +585,7 @@
               <tr>
                 <td><a href="<?php echo $pictures['activity_url1']; ?>" target="_blank"><img src="<?php echo $pictures['activity_picture1'] ?>" width="317" height="69" /></a></td>
               </tr>
-              <tr>
-                <td style="padding-top:8px; "><a href="<?php echo $pictures['activity_url2']; ?>" target="_blank"><img src="<?php echo $pictures['activity_picture2'] ?>" width="317" height="69" /></a></td>
-              </tr>
+            
             </table>
           </td>
         </tr>
