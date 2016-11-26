@@ -208,8 +208,8 @@
     <td height="129"></td>
   </tr>
 </table>
-<div style="width: 300px;height: 190px;border:1px solid #d2d2d2;">
-<iframe width="300" height="190" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=300&height=210&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=5293007529&verifier=1f9f3b9c&colors=D2D2D2,ffffff,666666,0082cb,ecfbfd&dpc=1"></iframe>
+<div style="width: 300px;height: 195px;border:1px solid #d2d2d2;">
+<iframe width="300" height="195" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=300&height=195&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=5293007529&verifier=1f9f3b9c&colors=D2D2D2,ffffff,666666,0082cb,ecfbfd&dpc=1"></iframe>
 </div>
 
 	<!-- 微博类选项结束 -->
@@ -296,6 +296,12 @@
       </tr>
     </table>
 	<!-- 学院团讯结束 -->
+          <!-- 第二课堂开始 -->
+          <div style = "width:317px;padding: 5px">
+              <a href="#" target="_blank">
+                  <img src="<?php bloginfo('template_url'); ?>/images/classroom_long.jpg" width="649" /></a>
+          </div>
+          <!-- 第二课堂结束 -->
       <table width="643" border="0" align="center" cellpadding="0" cellspacing="0">
 
           <tr>
@@ -325,7 +331,7 @@
 		            <ul>
             <?php
               $cat_name = "思想引领行动";
-              $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
+              $query = new WP_Query("posts_per_page=4&category_name=".$cat_name);
               while($query->have_posts()): $query->the_post();
             ?>
           <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo truncString(get_the_title(), 37); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
@@ -336,7 +342,7 @@
 			<td width="325" style="padding-left:10px; "><ul>
             <?php
               $cat_name = "素质拓展行动";
-              $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
+              $query = new WP_Query("posts_per_page=4&category_name=".$cat_name);
               while($query->have_posts()): $query->the_post();
             ?>
               <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo truncString(get_the_title(), 37); ?></a><font class="grey10" style="padding-right:9px; "><?php the_time("m-d"); ?></font></li>
@@ -344,7 +350,7 @@
             </ul></td>
         </tr>
       </table>
-      <table width="643" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top: 7px">
+      <table width="643" border="0" align="center" cellpadding="0" cellspacing="0" >
           <tr>
               <td height="38" colspan="2" style="padding:0"><!-- background="images/banner1.jpg"-->
                   <table width="640" border="0" cellspacing="0" cellpadding="0">
@@ -373,7 +379,7 @@
               <ul>
                 <?php
                   $cat_name = "权益服务行动";
-                  $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
+                  $query = new WP_Query("posts_per_page=4&category_name=".$cat_name);
                   while($query->have_posts()): $query->the_post();
                 ?>
                 <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo truncString(get_the_title(), 37); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
@@ -384,7 +390,7 @@
 		  <ul>
               <?php
                 $cat_name = "组织提升行动";
-                $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
+                $query = new WP_Query("posts_per_page=4&category_name=".$cat_name);
                 while($query->have_posts()): $query->the_post();
               ?>
                 <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo truncString(get_the_title(), 37); ?></a><font class="grey10" style="padding-right:9px; "><?php the_time("m-d"); ?></font></li>
@@ -392,7 +398,7 @@
           </ul></td>
         </tr>
       </table>
-      <table width="643" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:4px">
+      <table width="643" border="0" align="center" cellpadding="0" cellspacing="0" >
           <tr>
               <td height="38" colspan="2" style="padding:0"><!-- background="images/banner1.jpg"-->
                   <table width="640" border="0" cellspacing="0" cellpadding="0">
@@ -482,12 +488,7 @@
             </td>
       </tr>
     </table>
-<!-- 第二课堂开始 -->
-        <div style = "width:317px;padding: 5px">
-            <a href="#" target="_blank">
-                <img src="<?php bloginfo('template_url'); ?>/images/classroom.jpg" width="317" /></a>
-        </div>
-<!-- 第二课堂结束 -->
+
 
 <!-- 活动预告开始 -->
 <div class="tabqh">
@@ -581,12 +582,14 @@
           <tr><td width="100%"  height="2px" bgcolor="#c74e00"></td></tr>
         <tr>
           <td style="padding-top:10px;">
-            <table width="317" border="0" cellspacing="0" cellpadding="0">
-              <tr>
-                <td><a href="<?php echo $pictures['activity_url1']; ?>" target="_blank"><img src="<?php echo $pictures['activity_picture1'] ?>" width="317" height="69" /></a></td>
-              </tr>
-            
-            </table>
+              <table width="317" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                      <td><a href="<?php echo $pictures['activity_url1']; ?>" target="_blank"><img src="<?php echo $pictures['activity_picture1'] ?>" width="317" height="69" /></a></td>
+                  </tr>
+                  <tr>
+                      <td style="padding-top:8px; "><a href="<?php echo $pictures['activity_url2']; ?>" target="_blank"><img src="<?php echo $pictures['activity_picture2'] ?>" width="317" height="69" /></a></td>
+                  </tr>
+              </table>
           </td>
         </tr>
       </table>
