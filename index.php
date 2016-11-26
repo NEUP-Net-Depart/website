@@ -129,9 +129,9 @@
    <td align="right"><a href="<?php echo $images_huoli[1]['url']; ?>" target="_blank"><img src="<?php echo $images_huoli[1]['image']; ?>" width="140" height="112" /></a></td>
  </tr>
   <tr>
-    <td height="53" width="140"style="padding-bottom: 2px"><a href="<?php echo $images_huoli[0]['url']; ?>" class="black12" target="_blank"><?php echo truncString($images_huoli[0]['title'],42);?></a></td>
+    <td height="53" width="140"style="padding-bottom: 2px"><a href="<?php echo $images_huoli[0]['url']; ?>" class="black12" target="_blank"><?php echo truncString($images_huoli[0]['title'],41);?></a></td>
 
-    <td style="padding-left:20px;"><a href="<?php echo $images_huoli[1]['url']; ?>" class="black12" target="_blank"><?php echo truncString($images_huoli[1]['title'],42); ?></a></td>
+    <td style="padding-left:20px;"><a href="<?php echo $images_huoli[1]['url']; ?>" class="black12" target="_blank"><?php echo truncString($images_huoli[1]['title'],41); ?></a></td>
   </tr>
 </table>
 <!-- 选项卡1图片结束 -->
@@ -150,7 +150,7 @@
     $query = new WP_Query("posts_per_page=5&category_name=".$cat_name);
     while($query->have_posts()): $query->the_post();
   ?>
-  <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo truncString(get_the_title(), 37); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+  <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo truncString(get_the_title(), 35); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
   <?php endwhile; wp_reset_query(); ?>
 </ul>
 <!-- 选项卡1文字结束 -->
@@ -209,7 +209,7 @@
   </tr>
 </table>
 <div style="width: 300px;height: 195px;border:1px solid #d2d2d2;">
-<iframe width="300" height="195" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=300&height=225&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=5293007529&verifier=1f9f3b9c&colors=D2D2D2,ffffff,666666,0082cb,ecfbfd&dpc=1"></iframe>
+<iframe width="300" height="215" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=300&height=225&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=5293007529&verifier=1f9f3b9c&colors=D2D2D2,ffffff,666666,0082cb,ecfbfd&dpc=1"></iframe>
 </div>
 
 	<!-- 微博类选项结束 -->
