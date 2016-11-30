@@ -469,7 +469,7 @@
                 $query = new WP_Query("posts_per_page=7&category_name=".$cat_name);
                 while($query->have_posts()): $query->the_post();
               ?>
-		        <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo truncString(get_the_title(), 37); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+		        <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo truncString(get_the_title(), 36); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
 
             <?php endwhile; wp_reset_query(); ?>
                 <!--重复-->
@@ -478,7 +478,7 @@
                 $query = new WP_Query("posts_per_page=7&category_name=".$cat_name);
                 while($query->have_posts()): $query->the_post();
                     ?>
-                    <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo truncString(get_the_title(), 37); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
+                    <li class="li"><a href="<?php the_permalink(); ?>" class="black14" target="_blank"><?php echo truncString(get_the_title(), 36); ?></a><font class="grey10"><?php the_time("m-d"); ?></font></li>
 
                 <?php endwhile; wp_reset_query(); ?>
 
