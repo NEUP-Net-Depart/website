@@ -228,7 +228,7 @@
       while($query->have_posts()): $query->the_post();
     ?>
   <tr>
-    <td width="320" height="30" align="left"><a href="<?php the_permalink();?>" class="blue20" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 35,"...","UTF-8"); ?></a></td>
+    <td width="320" height="30" align="left"><a href="<?php the_permalink();?>" class="blue20" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 34,"...","UTF-8"); ?></a></td>
   </tr>
   <tr>
     <td style="padding:0px;height:80px;padding-bottom: 0px"><font class="grey12-more"><?php echo mb_strimwidth(get_the_excerpt(), 0, 146,"...","UTF-8");?><a href="<?php echo get_option('home'); ?>/category/先锋头条" class="grey10bg" target="_blank">更多>></a></td>
@@ -298,7 +298,7 @@
 	<!-- 学院团讯结束 -->
           <!-- 第二课堂开始 -->
           <div style = "width:317px;padding: 5px">
-              <a href="#" target="_blank">
+              <a href="http://219.216.96.15:8088/" target="_blank">
                   <img src="<?php bloginfo('template_url'); ?>/images/classroom_long.jpg" width="649" /></a>
           </div>
           <!-- 第二课堂结束 -->
