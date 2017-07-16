@@ -107,6 +107,28 @@ Template Name: 学生组织
                             <tr>
                                 <td>
                                     <div class="left_title_div" style="text-align: left;height: 45px">
+                                        <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/大学生志愿者协会" class="left_title <?php if ($title == "大学生志愿者协会"): echo "active"; endif;?>" style="margin-left: 10px">大学生志愿者协会</a></p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <td width="280" height="1"
+                                            style="background-image: url(<?php bloginfo('template_url'); ?>/images/listpageimages/line1.png);background-repeat: no-repeat;background-size: 280px 1px;"></td>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <div class="left_title_div" style="text-align: left;height: 45px">
                                         <p class="left_title_arrow">&gt;<a href="<?php echo get_option('home'); ?>/思想教育中心" class="left_title <?php if ($title == "思想教育中心"): echo "active"; endif;?>" style="margin-left: 10px">思想教育中心</a></p>
                                     </div>
                                 </td>
