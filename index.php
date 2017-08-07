@@ -633,7 +633,9 @@
   </tr>      <!--友情连接结束 -->
 
 </table>
-
+<div style='position:fixed;right:0%;top:50%;z-index:100000'>
+   <a href='http://202.118.17.188/forum.php?mod=viewthread&tid=823365&extra=page%3D1'><img style='height:160px;width:240px;'src='wp-content/themes/website/images/floatLeft.jpg' alt='失效了！'/></a>
+</div>
 <script>
     (function(){
         $("#marquee1").kxbdMarquee({direction:"up",isEqual:false});
