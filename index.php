@@ -298,7 +298,7 @@
 	<!-- 学院团讯结束 -->
           <!-- 第二课堂开始 -->
           <div style = "width:317px;padding: 5px">
-              <a href="http://219.216.96.15:8088/" target="_blank">
+              <a href="http://sct.neu.edu.cn/" target="_blank">
                   <img src="<?php bloginfo('template_url'); ?>/images/classroom_long.jpg" width="649" /></a>
           </div>
           <!-- 第二课堂结束 -->
