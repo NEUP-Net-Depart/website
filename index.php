@@ -209,7 +209,7 @@
   </tr>
 </table>
 <div style="width: 300px;height: 195px;border:1px solid #d2d2d2;">
-<iframe width="300" height="215" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=300&height=225&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=5293007529&verifier=1f9f3b9c&colors=D2D2D2,ffffff,666666,0082cb,ecfbfd&dpc=1"></iframe>
+<iframe width="300" height="215" class="share_self"  frameborder="0" scrolling="no" src="https://widget.weibo.com/weiboshow/index.php?language=&width=300&height=225&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=5293007529&verifier=1f9f3b9c&colors=D2D2D2,ffffff,666666,0082cb,ecfbfd&dpc=1"></iframe>
 </div>
 
 	<!-- 微博类选项结束 -->
